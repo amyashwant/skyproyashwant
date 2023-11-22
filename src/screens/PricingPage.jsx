@@ -1,0 +1,34 @@
+import React from "react";
+import TopHeader from "../components/packagesComponents/headerPackage/TopHeader";
+import BottomHeader from "../components/packagesComponents/headerPackage/BottomHeader";
+import BreadCumb from "../components/packagesComponents/breadCumb/BreadCumb";
+import PricingPlan from "../components/pricingPageComponents/pricingPlan/PricingPlan";
+import CtaPage from "../components/pricingPageComponents/ctaPage/CtaPage";
+import FaqPage from "../components/pricingPageComponents/faqPage/FaqPage";
+import FooterContact from "../common/footerContact/FooterContact";
+import Footer from "../common/footer/Footer";
+
+const PricingPage = () => {
+  return (
+    <div>
+      <TopHeader/>
+      <BottomHeader/>
+      <BreadCumb/>
+      <PricingPlan/>
+      <CtaPage/>
+      <FaqPage/>
+      <FooterContact/>
+      <Footer/>
+      {/* <TopHeader />
+      <BottomHeader />
+      <BeadCumb />
+      <PricingPlan />
+      <CtaPage />
+      <FaqPage />
+      <FooterContact />
+      <Footer /> */}
+    </div>
+  );
+};
+
+export default PricingPage;
