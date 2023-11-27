@@ -68,6 +68,11 @@ const   Footer = () => {
                     <i className="fas fa-square-full"></i>
                     <Link to="/contact"> Contact </Link>
                   </li>
+                 <li className="nav-item">
+                  <Link className="nav-link" to="/compilance">
+                    Compilance
+                  </Link>
+                </li>
                   <li>
                     <i className="fas fa-square-full"></i>
                     <Link to="/privacy">Privacy Policy</Link>

@@ -12,6 +12,7 @@ import SignupPage from "../screens/SignupPage";
 import PrivacyPage from "../screens/PrivacyPage";
 import TermsPage from "../screens/TermsPage";
 import RefundPage from "../screens/RefundPage";
+import Compilance from "../screens/Compilance";
 
 const AppLayout = () => {
   return (
@@ -30,6 +31,7 @@ const AppLayout = () => {
           <Route path="/privacy" element={<PrivacyPage />} />
           <Route path="/terms" element={<TermsPage />} />
           <Route path="/refund" element={<RefundPage />} />
+          <Route path="/compilance" element={<Compilance/>}/>
         </Routes>
       </Router>
     </div>
