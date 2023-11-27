@@ -9,6 +9,9 @@ import ContactPage from "../screens/ContactPage";
 import PricingPage from "../screens/PricingPage";
 import LoginPage from "../screens/LoginPage";
 import SignupPage from "../screens/SignupPage";
+import PrivacyPage from "../screens/PrivacyPage";
+import TermsPage from "../screens/TermsPage";
+import RefundPage from "../screens/RefundPage";
 
 const AppLayout = () => {
   return (
@@ -18,12 +21,15 @@ const AppLayout = () => {
           <Route path="/" element={<Dashboard />} />
           <Route path="/packages" element={<Packages />} />
           <Route path="/teams" element={<TeamsPage />} />
-          <Route path="/about" element={<AboutPage/>}/>
-          <Route path="/service" element={<ServicePage/>}/>
-          <Route path="/contact" element={<ContactPage/>}/>
-          <Route path="/pricing" element={<PricingPage/>}/>
-          <Route path="/login" element={<LoginPage/>}/>
-          <Route path="/signup" element={<SignupPage/>}/>
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/service" element={<ServicePage />} />
+          <Route path="/contact" element={<ContactPage />} />
+          <Route path="/pricing" element={<PricingPage />} />
+          <Route path="/login" element={<LoginPage />} />
+          <Route path="/signup" element={<SignupPage />} />
+          <Route path="/privacy" element={<PrivacyPage />} />
+          <Route path="/terms" element={<TermsPage />} />
+          <Route path="/refund" element={<RefundPage />} />
         </Routes>
       </Router>
     </div>
