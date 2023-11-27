@@ -1,10 +1,13 @@
 import React from "react";
-
+import packageOne from "../../../assets/images/services/WhatsApp Image 2023-11-24 at 16.17.46_9b7f53a8.jpg";
 const CallToAction = () => {
   return (
     <section
       className="package-features cta py-100 overlay-bg bg-img"
-    //   style="background-image: url(assets/images/services/cta.png);"
+      //   style="background-image: url(assets/images/services/cta.png);"
+      style={{
+        backgroundImage: `url(${packageOne})`,
+      }}
     >
       <div className="container">
         <div className="row justify-content-center g-4 text-center">

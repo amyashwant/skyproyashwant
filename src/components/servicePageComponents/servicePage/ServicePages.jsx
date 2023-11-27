@@ -1,4 +1,10 @@
 import React from "react";
+import serviceOne from "../../../assets/images/services/services-img-01.png"
+import serviceTwo from "../../../assets/images/services/services-img-02.jpg"
+import serviceThree from "../../../assets/images/services/services-img-03.jpg"
+import serviceFour from "../../../assets/images/services/services-img-04.jpg"
+import serviceFive from "../../../assets/images/services/services-img-05.jpg"
+import serviceSix from "../../../assets/images/services/services-img-06.jpg"
 
 const ServicePages = () => {
   return (
@@ -8,7 +14,7 @@ const ServicePages = () => {
           <div class="col-lg-4 col-md-6">
             <div class="services-item">
               <div class="background-img">
-                <img src="assets/images/services/services-img-01.png" alt="" />
+                <img src={serviceOne} alt="" />
               </div>
               <div class="icon">
                 <span class="icon-satellite"></span>
@@ -29,7 +35,7 @@ const ServicePages = () => {
           <div class="col-lg-4 col-md-6">
             <div class="services-item">
               <div class="background-img">
-                <img src="assets/images/services/services-img-02.jpg" alt="" />
+                <img src={serviceTwo} alt="" />
               </div>
               <div class="icon">
                 <span class="icon-wifi-1"></span>
@@ -49,7 +55,7 @@ const ServicePages = () => {
           <div class="col-lg-4 col-md-6">
             <div class="services-item">
               <div class="background-img">
-                <img src="assets/images/services/services-img-03.jpg" alt="" />
+                <img src={serviceThree} alt="" />
               </div>
               <div class="icon">
                 <span class="icon-tv-box"></span>
@@ -69,7 +75,7 @@ const ServicePages = () => {
           <div class="col-lg-4 col-md-6">
             <div class="services-item">
               <div class="background-img">
-                <img src="assets/images/services/services-img-04.jpg" alt="" />
+                <img src={serviceFour} alt="" />
               </div>
               <div class="icon">
                 <span class="icon-satellite"></span>
@@ -89,7 +95,7 @@ const ServicePages = () => {
           <div class="col-lg-4 col-md-6">
             <div class="services-item">
               <div class="background-img">
-                <img src="assets/images/services/services-img-05.jpg" alt="" />
+                <img src={serviceFive} alt="" />
               </div>
               <div class="icon">
                 <span class="icon-wifi-1"></span>
@@ -109,7 +115,7 @@ const ServicePages = () => {
           <div class="col-lg-4 col-md-6">
             <div class="services-item">
               <div class="background-img">
-                <img src="assets/images/services/services-img-06.jpg" alt="" />
+                <img src={serviceSix} alt="" />
               </div>
               <div class="icon">
                 <span class="icon-tv-box"></span>

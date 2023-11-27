@@ -32,7 +32,7 @@ const AccountPage = () => {
                 <h4 class="subtitle">LOG IN</h4>
                 <h2 class="title">WELCOME TO BACK</h2>
               </div>
-              <form action="#" autocomplete="off">
+              <form action="#" autoComplete="off">
                 <div class="row gy-3">
                   <div class="col-md-12">
                     <div class="contact-form-field">

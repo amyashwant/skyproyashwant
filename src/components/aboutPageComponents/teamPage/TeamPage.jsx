@@ -1,10 +1,17 @@
 import React from "react";
+import teamOne from "../../../assets/images/home-01/about/team-bg.png";
+import teamTwo from "../../../assets/images/home-01/about/team-01.png";
+import teamThree from "../../../assets/images/home-01/about/team-02.png";
+import teamFour from "../../../assets/images/home-01/about/team-03.png";
 
 const TeamPage = () => {
   return (
     <section
       class="team bg-img overlay-bg pt-100 pb-50"
       //  style="background-image: url(assets/images/about/team/team-bg.png);"
+      style={{
+        backgroundImage: `url(${teamOne})`,
+      }}
     >
       <div class="container">
         <div class="row justify-content-center">
@@ -19,7 +26,7 @@ const TeamPage = () => {
           <div class="col-lg-4 col-md-6">
             <div class="team-item">
               <div class="thumb">
-                <img src="assets/images/about/team/team-01.png" alt="" />
+                <img src={teamTwo} alt="" />
                 <div class="share-icon">
                   <a href="javascript: void(0)" class="icon-share"></a>
                   <div class="popup-share-icons">
@@ -59,7 +66,7 @@ const TeamPage = () => {
           <div class="col-lg-4 col-md-6">
             <div class="team-item">
               <div class="thumb">
-                <img src="assets/images/about/team/team-02.png" alt="" />
+                <img src={teamThree} alt="" />
                 <div class="share-icon">
                   <a href="javascript: void(0)" class="icon-share"></a>
                   <div class="popup-share-icons">
@@ -99,7 +106,7 @@ const TeamPage = () => {
           <div class="col-lg-4 col-md-6">
             <div class="team-item">
               <div class="thumb">
-                <img src="assets/images/about/team/team-03.png" alt="" />
+                <img src={teamFour} alt="" />
                 <div class="share-icon">
                   <a href="javascript: void(0)" class="icon-share"></a>
                   <div class="popup-share-icons">

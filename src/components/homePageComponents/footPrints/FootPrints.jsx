@@ -10,7 +10,7 @@ const FootPrints = () => {
               <div className="section-header style-two">
                 <h4 className="subtitle">OUR FOOTPRINTS</h4>
                 <h2 className="title">
-                  VISERFIX IS AVAILABLE TO ALL CORNERS OF THE COUNTRY
+                  SKYPRO IS AVAILABLE TO ALL CORNERS OF THE COUNTRY
                 </h2>
                 <p className="para">
                   We are dedicated to serving customers. We achieve this not
@@ -20,15 +20,14 @@ const FootPrints = () => {
               <div className="footprint-contact mb-3">
                 <p className="contact">Call Us Now For Connect </p>
                 <a href="tel:" className="phone">
-                  {" "}
-                  +(62) 00-567-8990
+                  +(91) 98035-96035
                 </a>
               </div>
-              <div className="footprint-button mt-4 pt-lg-3">
-                <a href="index.html" className="btn--base">
-                  DISCOVER MORE
-                </a>
-              </div>
+                {/* <div className="footprint-button mt-4 pt-lg-3">
+                  <a href="index.html" className="btn--base">
+                    DISCOVER MORE
+                  </a>
+                </div> */}
             </div>
           </div>
           <div className="col-lg-6">

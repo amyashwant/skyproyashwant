@@ -3,6 +3,7 @@ import planOne from "../../../assets/images/home-01/pricing/pricing-bg.png";
 import planTwo from "../../../assets/images/home-01/pricing/pricing-01.png";
 import planThree from "../../../assets/images/home-01/pricing/pricing-02.jpg";
 import planFour from "../../../assets/images/home-01/pricing/pricing-03.jpg";
+import { Link } from "react-router-dom";
 
 const PricingPlans = () => {
   return (
@@ -11,7 +12,6 @@ const PricingPlans = () => {
         <img src={planOne} alt="img" />
       </div>
       <div className="container">
-        x
         <div className="row justify-content-center">
           <div className="col-lg-6">
             <div className="section-header">
@@ -50,9 +50,9 @@ const PricingPlans = () => {
                     $30.00 <span>/ Month</span>
                   </h2>
                   <div className="icon-plus">
-                    <a href="packages.html">
+                    <Link to="/packages">
                       <span className="icon-add-1"></span>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -90,9 +90,9 @@ const PricingPlans = () => {
                     $59.00 <span>/ Month</span>
                   </h2>
                   <div className="icon-plus">
-                    <a href="packages.html">
+                    <Link to="/packages">
                       <span className="icon-add-1"></span>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -127,9 +127,9 @@ const PricingPlans = () => {
                     $30.00 <span>/ Month</span>
                   </h2>
                   <div className="icon-plus">
-                    <a href="packages.html">
+                    <Link to="/packages">
                       <span className="icon-add-1"></span>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

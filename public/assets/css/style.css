@@ -674,7 +674,7 @@ a {
 }
 
 a:hover {
-  color: #071e43;
+  color: #fff !important;
 }
 
 ul {
@@ -2230,7 +2230,7 @@ ul[class*="custom--tab"] li:last-child button {
 
 .footer-menu li i {
   font-size: 8px;
-  color: #071e43;
+  color: #fff;
   margin-right: 10px;
   -webkit-transform: translateY(-4px);
           transform: translateY(-4px);
@@ -6916,3 +6916,12 @@ svg.radial-progress circle {
   margin: 0 auto;
 }
 /*# sourceMappingURL=style.css.map */
+
+
+
+footer.footer-area .footer-img {
+  width: 200px;
+}
+.pricing-item:hover h2.price {
+  color: #fff;
+}

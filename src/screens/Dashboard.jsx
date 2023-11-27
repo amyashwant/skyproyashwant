@@ -18,19 +18,19 @@ import ToggleBar from "../components/packagesComponents/toggleBar/ToggleBar";
 const Dashboard = () => {
   return (
     <div>
-      {/* <Header /> */}
-      <TopHeader />
-      <BottomHeader />
+      <Header />
+      {/* <TopHeader /> */}
+      {/* <BottomHeader /> */}
       {/* <ToggleBar/> */}
       <Banner />
       <Brand />
       <About />
-      {/* <Service /> */}
-      {/* <Facts /> */}
+      <Service />
+      <Facts />
       <Testimonials />
       <PricingPlans />
       <FootPrints />
-      {/* <Blogs /> */}
+      <Blogs />
       <FooterContact />
       <Footer />
     </div>

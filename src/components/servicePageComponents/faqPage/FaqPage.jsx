@@ -1,10 +1,13 @@
 import React from "react";
-
+import faqOne from "../../../assets/images/home-01/about/offer-bg.png"
 const FaqPage = () => {
   return (
     <section
       class="faq py-100 bg-img overlay-bg"
     //   style="background-image: url(assets/images/home-01/offer/offer-bg.png);"
+    style={{
+      backgroundImage: `url(${faqOne})`,
+    }}
     >
       <div class="container">
         <div class="row justify-content-end">

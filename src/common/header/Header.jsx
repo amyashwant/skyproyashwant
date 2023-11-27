@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import bottomImg from "../../assets/images/home-01/logo/Skypro_New_Logo.png";
 import headerLogo from "../../assets/images/home-01/logo/logo.png";
 import { Link } from "react-router-dom";
 import ToggleHeader from "./ToggleHeader";
@@ -15,7 +15,7 @@ const Header = () => {
         <div className="container">
           <nav className="navbar navbar-expand-lg navbar-light">
             <Link className="navbar-brand logo" to="/packages">
-              <img src={headerLogo} alt="img" />
+              <img src={bottomImg} alt="img" />
             </Link>
             <button
               className="navbar-toggler header-button"
@@ -29,17 +29,17 @@ const Header = () => {
               <i className="fa-solid fa-bars"></i>
             </button>
 
-            <div className="toggle-search-box">
+            {/* <div className="toggle-search-box">
               <div className="search-icon">
                 <span
-                  // onClick={handleClick}
+            
                   className="icon-search"
                 ></span>
               </div>
-              {/* {show === true && ( */}
+          
               <div
                 className="search-input"
-                // style={{ visibility:"visible",display:"block" }}
+               
               >
                 <form>
                   <input type="text" placeholder="Search..." />
@@ -48,8 +48,8 @@ const Header = () => {
                   </button>
                 </form>
               </div>
-              {/* )} */}
-            </div>
+            
+            </div> */}
 
             <div
               className="collapse navbar-collapse"
@@ -70,39 +70,30 @@ const Header = () => {
                   </ul>
                 </li>
                 <li className="nav-item dropdown">
-                  <a
+                  <Link
                     className="nav-link"
-                    href="#"
+                    to="/"
                     role="button"
-                    data-bs-toggle="dropdown"
+                    // data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    HOME <i className="fa-solid fa-angle-down"></i>
-                  </a>
-                  <ul className="dropdown-menu">
-                    <li>
-                      <a className="dropdown-item" href="index.html">
-                        HOME 01
-                      </a>
-                    </li>
-                    <li>
-                      <a className="dropdown-item" href="home-two.html">
-                        HOME 02
-                      </a>
-                    </li>
-                  </ul>
+                    HOME
+                     {/* <i className="fa-solid fa-angle-down"></i> */}
+                  </Link>
+                
                 </li>
                 <li className="nav-item dropdown">
-                  <a
+                  <Link
                     className="nav-link"
-                    href="#"
+                    to="/about"
                     role="button"
-                    data-bs-toggle="dropdown"
+                    // data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    PAGES <i className="fa-solid fa-angle-down"></i>
-                  </a>
-                  <ul className="dropdown-menu">
+                    ABOUT
+                    {/* <i className="fa-solid fa-angle-down"></i> */}
+                  </Link>
+                  {/* <ul className="dropdown-menu">
                     <li>
                       <a className="dropdown-item" href="about.html">
                         ABOUT
@@ -128,20 +119,21 @@ const Header = () => {
                         404
                       </a>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
                 <li className="nav-item dropdown">
-                  <a
+                  <Link
                     className="nav-link"
-                    href="#"
+                    to="/service"
                     role="button"
-                    data-bs-toggle="dropdown"
+                    // data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    {" "}
-                    SERVICES <i className="fa-solid fa-angle-down"></i>
-                  </a>
-                  <ul className="dropdown-menu">
+                  
+                    SERVICES
+                     {/* <i className="fa-solid fa-angle-down"></i> */}
+                  </Link>
+                  {/* <ul className="dropdown-menu">
                     <li>
                       <a className="dropdown-item" href="services.html">
                         SERVICES
@@ -152,7 +144,7 @@ const Header = () => {
                         SERVICES DETAILS
                       </a>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
                 <li className="nav-item dropdown">
                   <a
@@ -162,27 +154,28 @@ const Header = () => {
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    {" "}
-                    BLOG <i className="fa-solid fa-angle-down"></i>
+                  
+                    PACKAGES
+                     <i className="fa-solid fa-angle-down"></i>
                   </a>
                   <ul className="dropdown-menu">
                     <li>
-                      <a className="dropdown-item" href="blog.html">
-                        BLOG POST
-                      </a>
+                      <Link className="dropdown-item" to="/packages">
+                        IPTV
+                      </Link>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="blog-details.html">
-                        BLOG DETAILS
-                      </a>
+                      <Link className="dropdown-item" to="/packages">
+                        Cable Tv
+                      </Link>
                     </li>
                   </ul>
                 </li>
 
                 <li className="nav-item">
-                  <a className="nav-link" href="contact.html">
+                  <Link className="nav-link" to="/contact">
                     CONTACT US
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -194,3 +187,5 @@ const Header = () => {
 };
 
 export default Header;
+
+

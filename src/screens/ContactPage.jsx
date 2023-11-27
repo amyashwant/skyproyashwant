@@ -5,16 +5,18 @@ import Contact from "../components/contactPageComponents/contact/Contact";
 import BeadCumb from "../components/contactPageComponents/beadCumb/BeadCumb";
 import MapCompany from "../components/contactPageComponents/map/MapCompany";
 import Footer from "../common/footer/Footer";
+import Header from "../common/header/Header";
 
 const ContactPage = () => {
   return (
     <>
-      <TopHeader />
-      <BottomHeader />
-      <BeadCumb/>
+      <Header />
+      {/* <TopHeader /> */}
+      {/* <BottomHeader /> */}
+      <BeadCumb />
       <Contact />
-      <MapCompany/>
-      <Footer/>
+      <MapCompany />
+      <Footer />
     </>
   );
 };

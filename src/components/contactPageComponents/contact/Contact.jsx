@@ -17,8 +17,8 @@ const Contact = () => {
                   </div>
                   <div class="content">
                     <h6 class="title">OFFICIAL LOCATION</h6>
-                    <p class="text">85023 Proston Rd. Inglewood</p>
-                    <p class="text">Maine 98380</p>
+                    <p class="text">SCO 37, Second floor, Sector 67 SAS Nagar - 160062(PUNJAB)</p>
+                    {/* <p class="text">Maine 98380</p>  */}
                   </div>
                 </div>
               </div>
@@ -51,8 +51,8 @@ const Contact = () => {
                   </div>
                   <div class="content">
                     <h6 class="title">OUR OFFICE TIME</h6>
-                    <p class="text">Wednesday - Saturday</p>
-                    <p class="text">6 am to 8 pm EST</p>
+                    <p class="text">Monday - Friday</p>
+                    <p class="text">10 am to 6 pm</p>
                   </div>
                 </div>
               </div>
@@ -67,22 +67,21 @@ const Contact = () => {
                   <div class="content">
                     <h6 class="title">GIVE US CALL</h6>
                     <p class="text">
-                      <a href="tel:">+(82) 800-968-3440</a>
+                      <a href="tel:">+(91) 9803596035</a>
                     </p>
                     <p class="text">
-                      <a href="tel:">+(93) 300-789-5678</a>
+                      <a href="tel:">+(91) 9803596035</a>
                     </p>
                   </div>
                 </div>
               </div>
             </div>
             <p class="contact-para pt-lg-4 pt-2">
-              We are dedicated to serving customers. We achieve this not only
-              through our extensive portfolio of internet.
+              We are dedicated to serving customers.Thank you for reaching out to Skypro. We appreciate your interest and are eager to assist you. Please choose from the options to get in touch with us.
             </p>
           </div>
           <div class="col-lg-6">
-            <form action="#" autocomplete="off">
+            <form action="#" autoComplete="off">
               <div class="row">
                 <div class="col-md-6">
                   <div class="contact-form-field mb-4">

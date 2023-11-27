@@ -1,6 +1,8 @@
 import React from "react";
 import footerOne from "../../assets/images/home-01/logo/footer-logo.png";
-const Footer = () => {
+import logo from "../../assets/images/home-01/logo/white-logo.png"
+import { Link } from "react-router-dom";
+const   Footer = () => {
   return (
     <>
       <footer
@@ -11,8 +13,8 @@ const Footer = () => {
           <div className="row justify-content-between gy-5">
             <div className="col-lg-3 col-sm-6">
               <div className="footer-item">
-                <a href="index.html">
-                  <img src={footerOne} alt="img" />
+                <a className="footer-img" href="index.html">
+                  <img src={logo} alt="img" />
                 </a>
                 <p className="content">
                   Get a dedicated server hosted on your end to complete your
@@ -48,23 +50,27 @@ const Footer = () => {
                 <ul className="footer-menu">
                   <li>
                     <i className="fas fa-square-full"></i>
-                    <a href="about.html">About Us</a>
+                    <Link to="/about">About Us</Link>
                   </li>
                   <li>
                     <i className="fas fa-square-full"></i>
-                    <a href="services.html">Services</a>
+                    <Link to="/service">Services</Link>
+                  </li>
+                  {/* <li>
+                    <i className="fas fa-square-full"></i>
+                    <Link to="/signup">Appointment</Link>
+                  </li> */}
+                  <li>
+                    <i className="fas fa-square-full"></i>
+                    <Link to="/packages">Our Plans</Link>
                   </li>
                   <li>
                     <i className="fas fa-square-full"></i>
-                    <a href="registration.html">Appointment</a>
+                    <Link to="/contact"> Contact </Link>
                   </li>
                   <li>
                     <i className="fas fa-square-full"></i>
-                    <a href="packages.html">Our Plans</a>
-                  </li>
-                  <li>
-                    <i className="fas fa-square-full"></i>
-                    <a href="contact.html"> Contact </a>
+                    <Link to="/privacy">Privacy Policy</Link>
                   </li>
                 </ul>
               </div>
@@ -75,24 +81,21 @@ const Footer = () => {
                 <ul className="footer-menu">
                   <li>
                     <i className="fas fa-square-full"></i>
-                    <a href="home-two.html">Home Two</a>
+                    <Link to="/packages">Cable TV</Link>
                   </li>
                   <li>
                     <i className="fas fa-square-full"></i>
-                    <a href="blog.html">Blog Post</a>
+                    <Link to="/packages">IPTV</Link>
                   </li>
                   <li>
                     <i className="fas fa-square-full"></i>
-                    <a href="blog-details.html">Blog Details </a>
+                    <Link to="/terms">Terms & Conditions </Link>
                   </li>
                   <li>
                     <i className="fas fa-square-full"></i>
-                    <a href="team.html">Team</a>
+                    <Link to="/refund">Refund & Cancellation</Link>
                   </li>
-                  <li>
-                    <i className="fas fa-square-full"></i>
-                    <a href="team-details.html">Team Details</a>
-                  </li>
+                 
                 </ul>
               </div>
             </div>
@@ -100,7 +103,7 @@ const Footer = () => {
               <div className="footer-item">
                 <h4 className="common-footer">NEWS LETTER</h4>
                 <div className="footer-buttons pt-3">
-                  <form action="#" autocomplete="off">
+                  <form action="#" autoComplete="off">
                     <input
                       type="email"
                       className="form-control form--control text-center"
@@ -121,7 +124,7 @@ const Footer = () => {
             <div className="row justify-content-center">
               <div className="col-md-12 text-center">
                 <p className="bottom-footer-text text-white">
-                  Copyright &copy; 2022. All Rights Reserved By Viserfix
+                  Copyright &copy; 2023. All Rights Reserved By Skypro
                 </p>
               </div>
             </div>

@@ -7,12 +7,15 @@ import CtaPage from "../components/pricingPageComponents/ctaPage/CtaPage";
 import FaqPage from "../components/pricingPageComponents/faqPage/FaqPage";
 import FooterContact from "../common/footerContact/FooterContact";
 import Footer from "../common/footer/Footer";
+import Header from "../common/header/Header";
 
 const PricingPage = () => {
   return (
     <div>
-      <TopHeader/>
-      <BottomHeader/>
+      <Header/>
+      {/* <TopHeader/> */
+      }
+      {/* <BottomHeader/> */}
       <BreadCumb/>
       <PricingPlan/>
       <CtaPage/>

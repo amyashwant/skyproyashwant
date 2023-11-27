@@ -55,9 +55,9 @@ const About = () => {
                 </div>
               </div>
               <div className="about-button ps-lg-5 mt-xl-0 mt-3">
-                <a href="about.html" className="btn--base">
+                <Link to  ="/about" className="btn--base">
                   READ MORE
-                </a>
+                </Link>
               </div>
             </div>
           </div>

@@ -14,8 +14,10 @@ const FooterContact = () => {
               </div>
               <div className="content">
                 <h6 className="title">OFFICIAL LOCATION</h6>
-                <p className="para">8502 Preston Rd. Inglewood,</p>
-                <p className="para"> Maine 98380</p>
+                <p className="para">
+                  SCO 37, Second floor, Sector 67  
+                </p>
+                <p className="para">SAS Nagar - 160062(PUNJAB)</p>
               </div>
             </div>
           </div>
@@ -43,10 +45,10 @@ const FooterContact = () => {
               <div className="content">
                 <h6 className="title">GIVE US A CALL</h6>
                 <p className="para">
-                  <a href="tel:">+(82)800-968-3440</a>
+                  <a href="tel:">+(91) 9803596035</a>
                 </p>
                 <p className="para">
-                  <a href="tel:">+(93)300-789-5678</a>
+                  <a href="tel:">+(91) 9803596035</a>
                 </p>
               </div>
             </div>

@@ -9,12 +9,14 @@ import FrequentAskedQues from "../components/packagesComponents/frequentAskedQue
 import FooterContact from "../common/footerContact/FooterContact";
 import Footer from "../common/footer/Footer";
 import TopHeader from "../components/packagesComponents/headerPackage/TopHeader";
+import Header from "../common/header/Header";
 
 const Packages = () => {
   return (
     <div>
-      <TopHeader/>
-      <BottomHeader />
+      <Header/>
+      {/* <TopHeader/> */}
+      {/* <BottomHeader /> */}
       {/* <ToggleBar /> */}
       <BreadCumb headerName="PACKAGES"/>
       <PricingPlan />

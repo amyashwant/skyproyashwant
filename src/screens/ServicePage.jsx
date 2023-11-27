@@ -7,18 +7,20 @@ import FaqPage from "../components/servicePageComponents/faqPage/FaqPage";
 import CtaPage from "../components/servicePageComponents/ctaPage/CtaPage";
 import FooterContact from "../common/footerContact/FooterContact";
 import Footer from "../common/footer/Footer";
+import Header from "../common/header/Header";
 
 const ServicePage = () => {
   return (
     <>
-      <TopHeader />
-      <BottomHeader />
+      <Header />
+      {/* <TopHeader /> */}
+      {/* <BottomHeader /> */}
       <BeadCumb />
-      <ServicePages/>
-      <FaqPage/>
-      <CtaPage/>
-      <FooterContact/>
-      <Footer/>
+      <ServicePages />
+      <FaqPage />
+      <CtaPage />
+      <FooterContact />
+      <Footer />
     </>
   );
 };

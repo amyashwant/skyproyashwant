@@ -10,12 +10,14 @@ import TestimonialPage from "../components/aboutPageComponents/testimonialPage/T
 import BrandPage from "../components/aboutPageComponents/brandPage.jsx/BrandPage";
 import FooterContact from "../common/footerContact/FooterContact";
 import Footer from "../common/footer/Footer";
+import Header from "../common/header/Header";
 
 const AboutPage = () => {
   return (
     <>
-      <TopHeader />
-      <BottomHeader />
+    <Header/>
+      {/* <TopHeader /> */}
+      {/* <BottomHeader /> */}
       <BeadCumb />
       <AboutPages />
       <OfferPage />

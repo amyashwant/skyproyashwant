@@ -1,10 +1,13 @@
 import React from "react";
-
+import counterOne from "../../../assets/images/home-01/about/counter-bg.png"
 const CounterPage = () => {
   return (
     <section
       class="counterup bg-img pb-100 pt-50"
     //   style="background-image: url(assets/images/about/counter/counter-bg.png);"
+    style={{
+      backgroundImage: `url(${counterOne})`,
+    }}
     >
       <div class="container">
         <div class="row justify-content-center gy-md-5 gy-4">

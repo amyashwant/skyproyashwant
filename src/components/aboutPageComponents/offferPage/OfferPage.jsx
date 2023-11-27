@@ -1,10 +1,13 @@
 import React from "react";
-
+import offerOne from "../../../assets/images/home-01/about/offer-bg.png"
 const OfferPage = () => {
   return (
     <section
       class="offer py-100 bg-img"
       //  style="background-image: url(assets/images/home-01/offer/offer-bg.png);"
+      style={{
+        backgroundImage: `url(${offerOne})`,
+      }}
     >
       <div class="container">
         <div class="row justify-content-end">

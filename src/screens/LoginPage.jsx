@@ -5,12 +5,14 @@ import BeadCumb from "../components/aboutPageComponents/beadCumb/BeadCumb";
 import AccountPage from "../components/loginPageComponents/accountPage/AccountPage";
 import FooterContact from "../common/footerContact/FooterContact";
 import Footer from "../common/footer/Footer";
+import Header from "../common/header/Header";
 
 const LoginPage = () => {
   return (
     <>
-      <TopHeader />
-      <BottomHeader />
+      <Header />
+      {/* <TopHeader /> */}
+      {/* <BottomHeader /> */}
       <BeadCumb />
       <AccountPage />
       <FooterContact />

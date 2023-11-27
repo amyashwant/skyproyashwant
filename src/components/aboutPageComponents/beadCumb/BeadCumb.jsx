@@ -1,10 +1,13 @@
 import React from "react";
-
+import aboutImg from "../../../assets/images/breadcumb/Artboard-2.webp";
 const BeadCumb = () => {
   return (
     <section
       class="breadcumb bg-img overlay-bg py-80"
-    //   style="background-image: url(assets/images/breadcumb/breadcumb.png);"
+      //   style="background-image: url(assets/images/breadcumb/breadcumb.png);"
+      style={{
+        backgroundImage: `url(${aboutImg})`,
+      }}
     >
       <div class="container">
         <div class="row justify-content-center">

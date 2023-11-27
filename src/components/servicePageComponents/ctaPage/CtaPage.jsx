@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const CtaPage = () => {
   return (
@@ -13,9 +14,9 @@ const CtaPage = () => {
               <h3 class="title text-white mb-xl-4 mb-3">
                 SAVE MONEY BY BUNDLING YOUR INTERNET SERVICE
               </h3>
-              <a href="contact.html" class="btn--base style-two">
+              <Link to="/contact" class="btn--base style-two">
                 CONTACT US $20 <i class="icon-check-mark"></i>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

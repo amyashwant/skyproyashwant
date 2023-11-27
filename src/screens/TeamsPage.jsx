@@ -7,17 +7,19 @@ import Team from "../components/teamPageComponents/team/Team";
 import CallToAction from "../components/packagesComponents/callToAction/CallToAction";
 import FooterContact from "../common/footerContact/FooterContact";
 import Footer from "../common/footer/Footer";
+import Header from "../common/header/Header";
 
 const TeamsPage = () => {
   return (
     <>
-      <TopHeader />
-      <BottomHeader />
+      <Header />
+      {/* <TopHeader /> */}
+      {/* <BottomHeader /> */}
       <BreadCumb headerName="TEAM" />
       <Team />
-      <CallToAction/>
-      <FooterContact/>
-      <Footer/>
+      <CallToAction />
+      <FooterContact />
+      <Footer />
       {/* <ToggleBar/> */}
     </>
   );

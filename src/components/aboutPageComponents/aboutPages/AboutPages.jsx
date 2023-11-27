@@ -1,5 +1,9 @@
 import React from "react";
-
+import aboutOne from "../../../assets/images/home-01/about/about-img-01.png"
+import aboutTwo from "../../../assets/images/home-01/about/about-img-02.png"
+import aboutThree from "../../../assets/images/home-01/about/about-img-03.png"
+import aboutFour from "../../../assets/images/home-01/about/dot-shape.png"
+import aboutFive from "../../../assets/images/home-01/about/testi-01.png"
 const AboutPages = () => {
   return (
     <section class="about py-100">
@@ -11,7 +15,7 @@ const AboutPages = () => {
                 <div class="about-left-thumb">
                   <img
                     class="w-100"
-                    src="assets/images/home-01/about/about-img-01.png"
+                    src={aboutOne}
                     alt=""
                   />
                 </div>
@@ -20,17 +24,17 @@ const AboutPages = () => {
                 <div class="about-right-thumb">
                   <img
                     class="w-100"
-                    src="assets/images/home-01/about/about-img-02.png"
+                    src={aboutTwo}
                     alt=""
                   />
                   <img
                     class="w-100"
-                    src="assets/images/home-01/about/about-img-03.png"
+                    src={aboutThree}
                     alt=""
                   />
                   <img
                     class="w-100"
-                    src="assets/images/home-01/about/dot-shape.png"
+                    src={aboutFour}
                     alt=""
                   />
                 </div>
@@ -61,7 +65,7 @@ const AboutPages = () => {
                 <div class="about-meta d-flex align-items-center flex-wrap">
                   <div class="meta-thumb">
                     <img
-                      src="assets/images/home-01/about/testi-01.png"
+                      src={aboutFive}
                       alt=""
                     />
                   </div>
