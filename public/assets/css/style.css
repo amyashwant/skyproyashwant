@@ -680,7 +680,7 @@ a {
 }
 
 a:hover {
-  color: #fff !important;
+  color: #929090 !important;
 }
 
 ul {
@@ -2238,6 +2238,7 @@ ul[class*="custom--tab"] li:last-child button {
 .footer-menu li {
   display: block;
   line-height: 2;
+  white-space: pre;
 }
 
 .footer-menu li i {
@@ -7033,4 +7034,133 @@ a.downloadbtn {
   /* width: 166px; */
   justify-content: center;
   text-align: center;
+}
+
+/* Cart section CSS----------------------------------------- */
+
+.checkout-sec .viewcart-style p {
+  color: #fff;
+  font-size: 18px;
+  transform: rotate(-90deg);
+  height: 92px;
+  width: 87px;
+  margin-bottom: 0px;
+  white-space: pre;
+}
+
+.checkout-sec .viewcart-style {
+  background-color: #0f397e;
+  padding: 11px 3px;
+  position: fixed;
+  right: 0;
+  top: 40%;
+  cursor: pointer;
+  width: 35px;
+  z-index: 9999;
+  border-radius: 12px 0 0 12px;
+}
+
+.checkout-sec span.img-style1 {
+  display: block;
+  margin-bottom: 22px;
+  border-bottom: 1px solid #dadfe3;
+  padding-bottom: 2px;
+  text-align: center;
+}
+
+.checkout-sec span.add_cart {
+  background-color: #fff;
+  line-height: 23px;
+  height: 23px;
+  width: 23px;
+  border-radius: 50%;
+  color: #061d42;
+  text-align: center;
+  font-size: 12px;
+  margin-right: 6px;
+}
+
+/* payment section css---------------------------------------- */
+
+.your-shoping-cart {
+  padding: 40px;
+  background-color: #f3f5f7;
+  max-width: 440px;
+  width: 95%;
+}
+.your-shoping-cart .title-box > h1 {
+  font-size: 32px;
+}
+.your-shoping-cart .product-box {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding-bottom: 18px;
+}
+.your-shoping-cart img {
+  width: 8rem;
+}
+.your-shoping-cart .info-box > h5 {
+  font-size: 1.3rem;
+}
+.your-shoping-cart .info-box > p {
+  font-size: 1.2rem;
+}
+
+.your-shoping-cart .cost-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 22px;
+}
+.your-shoping-cart .cost-box > div {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3rem;
+}
+.your-shoping-cart .cost-box > div:nth-of-type(1) > p:nth-of-type(2) {
+  font-weight: bold;
+}
+.your-shoping-cart .cost-box > div:nth-of-type(2) > p:nth-of-type(2) {
+  font-weight: bold;
+}
+.your-shoping-cart .cost-box > div:nth-of-type(3) > p {
+  font-weight: bold;
+  padding-top: 2px;
+}
+.your-shoping-cart #promo {
+  width: 10rem;
+  outline: none;
+  border: none;
+  padding: 0.4rem 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.7rem;
+}
+.your-shoping-cart .send-promo {
+  border: none;
+  outline: none;
+  padding: 0.2rem 0.6rem;
+  border-radius: 3px;
+  margin-top: 0.3rem;
+  color: #191a3c;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  font-weight: bold;
+}
+.your-shoping-cart button.Checkout-btn {
+  background-color: #0f397e;
+  border: none;
+  color: white;
+  padding: 14px 20px;
+  text-align: center;
+  font-size: 18px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  border-radius: 4px;
+}
+.your-shoping-cart button.Checkout-btn:hover {
+  background: #3aa9ff;
 }

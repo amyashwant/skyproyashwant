@@ -4,6 +4,7 @@ import FooterContact from "../common/footerContact/FooterContact";
 import Footer from "../common/footer/Footer";
 import PackageMainPage from "../components/packagePageComponents/PackageMainPage";
 import BeadCumb from "../components/aboutPageComponents/beadCumb/BeadCumb";
+import PaymentSection from "../components/packagePageComponents/PaymentSection";
 
 const PackagePage = () => {
   return (
@@ -11,6 +12,7 @@ const PackagePage = () => {
       <Header />
       {/* <BeadCumb/> */}
       <PackageMainPage />
+      <PaymentSection/>
       <FooterContact />
       <Footer />
     </div>

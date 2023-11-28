@@ -78,9 +78,8 @@ const Header = () => {
                     aria-expanded="false"
                   >
                     HOME
-                     {/* <i className="fa-solid fa-angle-down"></i> */}
+                    {/* <i className="fa-solid fa-angle-down"></i> */}
                   </Link>
-                
                 </li>
                 <li className="nav-item dropdown">
                   <Link
@@ -129,9 +128,8 @@ const Header = () => {
                     // data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                  
                     SERVICES
-                     {/* <i className="fa-solid fa-angle-down"></i> */}
+                    {/* <i className="fa-solid fa-angle-down"></i> */}
                   </Link>
                   {/* <ul className="dropdown-menu">
                     <li>
@@ -154,9 +152,8 @@ const Header = () => {
                     // data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                  
                     PACKAGES
-                     {/* <i className="fa-solid fa-angle-down"></i> */}
+                    {/* <i className="fa-solid fa-angle-down"></i> */}
                   </Link>
                   {/* <ul className="dropdown-menu">
                     <li>
@@ -187,5 +184,3 @@ const Header = () => {
 };
 
 export default Header;
-
-

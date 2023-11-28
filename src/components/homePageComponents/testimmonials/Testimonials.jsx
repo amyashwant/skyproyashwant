@@ -74,10 +74,9 @@ const Testimonials = () => {
                       One of the two YOU Broadband connections wasn't working in
                       our office for some time. It is so comforting to see your
                       engineer, Mangesh Ghatge, drop in at our place within half
-                      an hour of our registering a complaint.{" "}
+                      an hour of our registering a complaint.
                     </p>
                     <p className="para text-white pt-3">
-                      {" "}
                       Actually the problem was in our system itself.
                     </p>
                     <div className="client-meta d-flex align-items-center flex-wrap mt-5">

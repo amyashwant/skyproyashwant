@@ -14,7 +14,7 @@ const About = () => {
       </div>
       <div className="container">
         <div className="row gy-5">
-          <div className="col-lg-6">  
+          <div className="col-lg-6">
             <div className="about-left">
               <div className="play-button">
                 <a
@@ -46,16 +46,21 @@ const About = () => {
                       DISCOVER A WORLD OF HIGH-SPEED INTERNET
                     </h2>
                     <p className="para">
-                    We are a leading provider of high-speed internet, TV, and phone services to residential and business customers. We are committed to providing our customers with the best possible experience, and we offer a variety of plans and services to meet their needs.
+                      We are a leading provider of high-speed internet, TV, and
+                      phone services to residential and business customers. We
+                      are committed to providing our customers with the best
+                      possible experience, and we offer a variety of plans and
+                      services to meet their needs.
                     </p>
                     <p className="para mt-lg-4 mt-3">
-                    Our mission is to provide our customers with the best possible internet, TV, and phone services.
+                      Our mission is to provide our customers with the best
+                      possible internet, TV, and phone services.
                     </p>
                   </div>
                 </div>
               </div>
               <div className="about-button ps-lg-5 mt-xl-0 mt-3">
-                <Link to  ="/about" className="btn--base">
+                <Link to="/about" className="btn--base">
                   READ MORE
                 </Link>
               </div>

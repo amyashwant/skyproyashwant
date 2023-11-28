@@ -13,9 +13,9 @@ const Footer = () => {
           <div className="row justify-content-between gy-5">
             <div className="col-lg-3 col-sm-6">
               <div className="footer-item">
-                <a className="footer-img" href="index.html">
+                <Link className="footer-img" to="/">
                   <img src={logo} alt="img" />
-                </a>
+                </Link>
                 <p className="content">
                   Get a dedicated server hosted on your end to complete your
                   daily needs with efficient network routing and configuration.

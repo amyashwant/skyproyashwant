@@ -2,7 +2,19 @@ import React from "react";
 import imgOne from "../../assets/images/packageNew/aljazeera.png";
 import imgTwo from "../../assets/images/packageNew/b4u.png";
 import imgThree from "../../assets/images/packageNew/dangal.png";
+import { useDispatch, useSelector } from "react-redux";
+import { addItem } from "../../utils/cartSlice";
 const PackageMainPage = () => {
+  const dispatch = useDispatch();
+
+  const cartItems = useSelector((store) => store.cart.items);
+
+  const handleClick = (arg) => {
+    dispatch(addItem(arg));
+  };
+
+  console.log("cartItems", cartItems);
+
   return (
     <div>
       <div className="package-section-new" style={{ marginTop: "100px" }}>
@@ -21,7 +33,6 @@ const PackageMainPage = () => {
                     role="tablist"
                   >
                     <li className="nav-item" role="presentation">
-                      {" "}
                       <a
                         className="nav-link active"
                         id="ex2-tab-1"
@@ -32,10 +43,9 @@ const PackageMainPage = () => {
                         aria-selected="true"
                       >
                         ANDHRA PRADESH
-                      </a>{" "}
+                      </a>
                     </li>
                     <li className="nav-item" role="presentation">
-                      {" "}
                       <a
                         className="nav-link"
                         id="ex2-tab-2"
@@ -46,10 +56,9 @@ const PackageMainPage = () => {
                         aria-selected="false"
                       >
                         RAJASTHAN
-                      </a>{" "}
+                      </a>
                     </li>
                     <li className="nav-item" role="presentation">
-                      {" "}
                       <a
                         className="nav-link"
                         id="ex2-tab-3"
@@ -60,10 +69,9 @@ const PackageMainPage = () => {
                         aria-selected="false"
                       >
                         HARYANA
-                      </a>{" "}
+                      </a>
                     </li>
                     <li className="nav-item" role="presentation">
-                      {" "}
                       <a
                         className="nav-link"
                         id="ex2-tab-4"
@@ -74,10 +82,9 @@ const PackageMainPage = () => {
                         aria-selected="false"
                       >
                         KARNATAKA
-                      </a>{" "}
+                      </a>
                     </li>
                     <li className="nav-item" role="presentation">
-                      {" "}
                       <a
                         className="nav-link"
                         id="ex4-tab-5"
@@ -88,10 +95,9 @@ const PackageMainPage = () => {
                         aria-selected="false"
                       >
                         MAHARASHTRA
-                      </a>{" "}
+                      </a>
                     </li>
                     <li className="nav-item" role="presentation">
-                      {" "}
                       <a
                         className="nav-link"
                         id="ex5-tab-6"
@@ -102,10 +108,9 @@ const PackageMainPage = () => {
                         aria-selected="false"
                       >
                         MADHYA PRADESH
-                      </a>{" "}
+                      </a>
                     </li>
                     <li className="nav-item" role="presentation">
-                      {" "}
                       <a
                         className="nav-link"
                         id="ex6-tab-7"
@@ -116,10 +121,9 @@ const PackageMainPage = () => {
                         aria-selected="false"
                       >
                         PUNJABI
-                      </a>{" "}
+                      </a>
                     </li>
                     <li className="nav-item" role="presentation">
-                      {" "}
                       <a
                         className="nav-link"
                         id="ex6-tab-8"
@@ -130,7 +134,7 @@ const PackageMainPage = () => {
                         aria-selected="false"
                       >
                         DELHI
-                      </a>{" "}
+                      </a>
                     </li>
                   </ul>
                 </div>
@@ -153,7 +157,7 @@ const PackageMainPage = () => {
                             <div className="col-sm-8">
                               <div className="tab-bg">
                                 <div className="width-div w-50">
-                                  <h4>HW AP SILVER BUDGET TELUGU</h4>{" "}
+                                  <h4>HW AP SILVER BUDGET TELUGU</h4>
                                   <a href="#">View channels</a>
                                 </div>
                                 <div className="channelImage w-50">
@@ -177,16 +181,17 @@ const PackageMainPage = () => {
                             <div className="col-sm-4 d-flix">
                               <div className="tab-price">
                                 <div className="price-style">
-                                  <h2>HW
-                                    ₹ 150.00<span>/mo</span>
+                                  <h2>
+                                    HW ₹ 150.00<span>/mo</span>
                                   </h2>
                                   <p>*Prices are excluding taxes</p>
                                 </div>
                                 <div className="selectbtn">
-                                  {" "}
                                   <a className="btn-style" href="#">
-                                    Add Pack
-                                  </a>{" "}
+                                    <span onClick={() => handleClick("add")}>
+                                      Add Pack
+                                    </span>
+                                  </a>
                                 </div>
                               </div>
                             </div>
@@ -195,25 +200,19 @@ const PackageMainPage = () => {
                             <div className="col-sm-8">
                               <div className="tab-bg">
                                 <div className="width-div w-50">
-                                  <h4>NORTH FTA</h4>{" "}
+                                  <h4>NORTH FTA</h4>
                                   <a href="#">View channels</a>
                                 </div>
                                 <div className="channelImage w-50">
                                   <ul className="m-0 p-0">
                                     <li>
-                                      <img
-                                        src={imgThree}
-                                        alt=""
-                                      />
+                                      <img src={imgThree} alt="" />
                                     </li>
                                     <li>
                                       <img src={imgOne} alt="" />
                                     </li>
                                     <li>
-                                      <img
-                                        src={imgTwo}
-                                        alt=""
-                                      />
+                                      <img src={imgTwo} alt="" />
                                     </li>
                                     <li>
                                       <span>+72</span>
@@ -231,10 +230,11 @@ const PackageMainPage = () => {
                                   <p>*Prices are excluding taxes</p>
                                 </div>
                                 <div className="selectbtn">
-                                  {" "}
                                   <a className="btn-style" href="#">
-                                    Add Pack
-                                  </a>{" "}
+                                    <span onClick={() => handleClick("add")}>
+                                      Add Pack
+                                    </span>
+                                  </a>
                                 </div>
                               </div>
                             </div>
@@ -243,25 +243,19 @@ const PackageMainPage = () => {
                             <div className="col-sm-8">
                               <div className="tab-bg">
                                 <div className="width-div w-50">
-                                  <h4>SILVER BUDGET HINDI</h4>{" "}
+                                  <h4>SILVER BUDGET HINDI</h4>
                                   <a href="#">View channels</a>
                                 </div>
                                 <div className="channelImage w-50">
                                   <ul className="m-0 p-0">
                                     <li>
-                                      <img
-                                        src={imgThree}
-                                        alt=""
-                                      />
+                                      <img src={imgThree} alt="" />
                                     </li>
                                     <li>
                                       <img src={imgTwo} alt="" />
                                     </li>
                                     <li>
-                                      <img
-                                        src={imgThree}
-                                        alt=""
-                                      />
+                                      <img src={imgThree} alt="" />
                                     </li>
                                     <li>
                                       <span>+372</span>
@@ -279,10 +273,11 @@ const PackageMainPage = () => {
                                   <p>*Prices are excluding taxes</p>
                                 </div>
                                 <div className="selectbtn">
-                                  {" "}
                                   <a className="btn-style" href="#">
-                                    Add Pack
-                                  </a>{" "}
+                                    <span onClick={() => handleClick("add")}>
+                                      Add Pack
+                                    </span>
+                                  </a>
                                 </div>
                               </div>
                             </div>
@@ -291,25 +286,19 @@ const PackageMainPage = () => {
                             <div className="col-sm-8">
                               <div className="tab-bg">
                                 <div className="width-div w-50">
-                                  <h4>HW NORTH ULTRA VALUE HD</h4>{" "}
+                                  <h4>HW NORTH ULTRA VALUE HD</h4>
                                   <a href="#">View channels</a>
                                 </div>
                                 <div className="channelImage w-50">
                                   <ul className="m-0 p-0">
                                     <li>
-                                      <img
-                                        src={imgOne}
-                                        alt=""
-                                      />
+                                      <img src={imgOne} alt="" />
                                     </li>
                                     <li>
                                       <img src={imgTwo} alt="" />
                                     </li>
                                     <li>
-                                      <img
-                                        src={imgThree}
-                                        alt=""
-                                      />
+                                      <img src={imgThree} alt="" />
                                     </li>
                                     <li>
                                       <span>+372</span>
@@ -327,10 +316,11 @@ const PackageMainPage = () => {
                                   <p>*Prices are excluding taxes</p>
                                 </div>
                                 <div className="selectbtn">
-                                  {" "}
                                   <a className="btn-style" href="#">
-                                    Add Pack
-                                  </a>{" "}
+                                    <span onClick={() => handleClick("add")}>
+                                      Add Pack
+                                    </span>
+                                  </a>
                                 </div>
                               </div>
                             </div>
@@ -350,7 +340,7 @@ const PackageMainPage = () => {
                         <div className="col-sm-8">
                           <div className="tab-bg">
                             <div className="width-div w-50">
-                              <h4>SILVER BUDGET TELUGU</h4>{" "}
+                              <h4>SILVER BUDGET TELUGU</h4>
                               <a href="#">View channels</a>
                             </div>
                             <div className="channelImage w-50">
@@ -362,10 +352,7 @@ const PackageMainPage = () => {
                                   <img src={imgTwo} alt="" />
                                 </li>
                                 <li>
-                                  <img
-                                    src={imgThree}
-                                    alt=""
-                                  />
+                                  <img src={imgThree} alt="" />
                                 </li>
                                 <li>
                                   <span>+272</span>
@@ -383,10 +370,11 @@ const PackageMainPage = () => {
                               <p>*Prices are excluding taxes</p>
                             </div>
                             <div className="selectbtn">
-                              {" "}
                               <a className="btn-style" href="#">
-                                Add Pack
-                              </a>{" "}
+                                <span onClick={() => handleClick("add")}>
+                                  Add Pack
+                                </span>
+                              </a>
                             </div>
                           </div>
                         </div>
@@ -404,7 +392,7 @@ const PackageMainPage = () => {
                         <div className="col-sm-8">
                           <div className="tab-bg">
                             <div className="width-div w-50">
-                              <h4>HW NORTH BUDGET</h4>{" "}
+                              <h4>HW NORTH BUDGET</h4>
                               <a href="#">View channels</a>
                             </div>
                             <div className="channelImage w-50">
@@ -416,10 +404,7 @@ const PackageMainPage = () => {
                                   <img src={imgTwo} alt="" />
                                 </li>
                                 <li>
-                                  <img
-                                    src={imgThree}
-                                    alt=""
-                                  />
+                                  <img src={imgThree} alt="" />
                                 </li>
                                 <li>
                                   <span>+72</span>
@@ -437,10 +422,11 @@ const PackageMainPage = () => {
                               <p>*Prices are excluding taxes</p>
                             </div>
                             <div className="selectbtn">
-                              {" "}
                               <a className="btn-style" href="#">
-                                Add Pack
-                              </a>{" "}
+                                <span onClick={() => handleClick("add")}>
+                                  Add Pack
+                                </span>
+                              </a>
                             </div>
                           </div>
                         </div>
@@ -469,10 +455,7 @@ const PackageMainPage = () => {
                                   <img src={imgTwo} alt="" />
                                 </li>
                                 <li>
-                                  <img
-                                    src={imgThree}
-                                    alt=""
-                                  />
+                                  <img src={imgThree} alt="" />
                                 </li>
                                 <li>
                                   <span>+72</span>
@@ -490,10 +473,11 @@ const PackageMainPage = () => {
                               <p>*Prices are excluding taxes</p>
                             </div>
                             <div className="selectbtn">
-                              {" "}
                               <a className="btn-style" href="#">
-                                Add Pack
-                              </a>{" "}
+                                <span onClick={() => handleClick("add")}>
+                                  Add Pack
+                                </span>
+                              </a>
                             </div>
                           </div>
                         </div>
@@ -511,7 +495,7 @@ const PackageMainPage = () => {
                         <div className="col-sm-8">
                           <div className="tab-bg">
                             <div className="width-div w-50">
-                              <h4>SILVER BUDGET</h4>{" "}
+                              <h4>SILVER BUDGET</h4>
                               <a href="#">View channels</a>
                             </div>
                             <div className="channelImage w-50">
@@ -523,10 +507,7 @@ const PackageMainPage = () => {
                                   <img src={imgTwo} alt="" />
                                 </li>
                                 <li>
-                                  <img
-                                    src={imgThree}
-                                    alt=""
-                                  />
+                                  <img src={imgThree} alt="" />
                                 </li>
                                 <li>
                                   <span>+272</span>
@@ -544,10 +525,11 @@ const PackageMainPage = () => {
                               <p>*Prices are excluding taxes</p>
                             </div>
                             <div className="selectbtn">
-                              {" "}
                               <a className="btn-style" href="#">
-                                Add Pack
-                              </a>{" "}
+                                <span onClick={() => handleClick("add")}>
+                                  Add Pack
+                                </span>
+                              </a>
                             </div>
                           </div>
                         </div>
@@ -565,7 +547,7 @@ const PackageMainPage = () => {
                         <div className="col-sm-8">
                           <div className="tab-bg">
                             <div className="width-div w-50">
-                              <h4>SILVER BUDGET HINDI</h4>{" "}
+                              <h4>SILVER BUDGET HINDI</h4>
                               <a href="#">View channels</a>
                             </div>
                             <div className="channelImage w-50">
@@ -577,10 +559,7 @@ const PackageMainPage = () => {
                                   <img src={imgTwo} alt="" />
                                 </li>
                                 <li>
-                                  <img
-                                    src={imgThree}
-                                    alt=""
-                                  />
+                                  <img src={imgThree} alt="" />
                                 </li>
                                 <li>
                                   <span>+372</span>
@@ -598,10 +577,11 @@ const PackageMainPage = () => {
                               <p>*Prices are excluding taxes</p>
                             </div>
                             <div className="selectbtn">
-                              {" "}
                               <a className="btn-style" href="#">
-                                Add Pack
-                              </a>{" "}
+                                <span onClick={() => handleClick("add")}>
+                                  Add Pack
+                                </span>
+                              </a>
                             </div>
                           </div>
                         </div>
@@ -619,7 +599,7 @@ const PackageMainPage = () => {
                         <div className="col-sm-8">
                           <div className="tab-bg">
                             <div className="width-div w-50">
-                              <h4> BUDGET PUNJABI</h4>{" "}
+                              <h4> BUDGET PUNJABI</h4>
                               <a href="#">View channels</a>
                             </div>
                             <div className="channelImage w-50">
@@ -631,10 +611,7 @@ const PackageMainPage = () => {
                                   <img src={imgTwo} alt="" />
                                 </li>
                                 <li>
-                                  <img
-                                    src={imgThree}
-                                    alt=""
-                                  />
+                                  <img src={imgThree} alt="" />
                                 </li>
                                 <li>
                                   <span>+272</span>
@@ -652,10 +629,11 @@ const PackageMainPage = () => {
                               <p>*Prices are excluding taxes</p>
                             </div>
                             <div className="selectbtn">
-                              {" "}
                               <a className="btn-style" href="#">
-                                Add Pack
-                              </a>{" "}
+                                <span onClick={() => handleClick("add")}>
+                                  Add Pack
+                                </span>
+                              </a>
                             </div>
                           </div>
                         </div>
@@ -673,7 +651,7 @@ const PackageMainPage = () => {
                         <div className="col-sm-8">
                           <div className="tab-bg">
                             <div className="width-div w-50">
-                              <h4>HW TL SUPER HD</h4>{" "}
+                              <h4>HW TL SUPER HD</h4>
                               <a href="#">View channels</a>
                             </div>
                             <div className="channelImage w-50">
@@ -685,10 +663,7 @@ const PackageMainPage = () => {
                                   <img src={imgTwo} alt="" />
                                 </li>
                                 <li>
-                                  <img
-                                    src={imgThree}
-                                    alt=""
-                                  />
+                                  <img src={imgThree} alt="" />
                                 </li>
                                 <li>
                                   <span>+272</span>
@@ -706,10 +681,11 @@ const PackageMainPage = () => {
                               <p>*Prices are excluding taxes</p>
                             </div>
                             <div className="selectbtn">
-                              {" "}
                               <a className="btn-style" href="#">
-                                Add Pack
-                              </a>{" "}
+                                <span onClick={() => handleClick("add")}>
+                                  Add Pack
+                                </span>
+                              </a>
                             </div>
                           </div>
                         </div>

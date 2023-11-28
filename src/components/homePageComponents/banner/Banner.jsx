@@ -27,13 +27,13 @@ const Banner = () => {
     <section className="home-two-banner">
       <div className="banner-before-after">
         <span>
-          <img src={shapeOne} alt="" />
+          <img src={shapeOne} alt="img" />
         </span>
         <span>
-          <img src={shapeTwo} alt="" />
+          <img src={shapeTwo} alt="img" />
         </span>
         <span>
-          <img src={shapeThree} alt="" />
+          <img src={shapeThree} alt="img" />
         </span>
       </div>
       <div className="container">
@@ -61,7 +61,7 @@ const Banner = () => {
           </div>
           <div className="col-lg-6">
             <div className="banner-right-image">
-              <img src={banner} alt="" />
+              <img src={banner} alt="img" />
             </div>
           </div>
         </div>

@@ -66,7 +66,6 @@ const Facts = () => {
           <div className="col-lg-6">
             <div
               className="fun-right-bg-img bg-img"
-              // style="background-image: url(assets/images/home-02/fun/fun-bg.png);"
               style={{
                 backgroundImage: `url(${funTwo})`,
               }}
