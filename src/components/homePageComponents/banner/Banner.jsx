@@ -2,12 +2,12 @@ import React from "react";
 // import shapeOne from "../../../assets/images/home-02/banner/shape-01.png";
 // import shapeTwo from "../../../assets/images/home-02/banner/shape-02.png";
 // import shapeThree from "../../../assets/images/home-02/banner/shape-03.png";
-// import banner from "../../../assets/images/bg-removed/skyproimages_page-0008.png";
+import banner from "../../../assets/images/bg-removed/skyproimages_page-0008.png";
 
 import shapeOne from "../../../assets/images/home-02/banner/shape-01.png";
 import shapeTwo from "../../../assets/images/home-02/banner/shape-02.png";
 import shapeThree from "../../../assets/images/home-02/banner/shape-03.png";
-import banner from "../../../assets/images/home-02/banner/banner.png";
+// import banner from "../../../assets/images/home-02/banner/";
 import { Link } from "react-router-dom";
 
 // import shapeOne from "../../../assets/images/ilovepdf_pages-to-jpg/skyproimages_page-0001.jpg";

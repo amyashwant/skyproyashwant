@@ -147,18 +147,18 @@ const Header = () => {
                   </ul> */}
                 </li>
                 <li className="nav-item dropdown">
-                  <a
+                  <Link
                     className="nav-link"
-                    href="#"
+                    to="/packages"
                     role="button"
-                    data-bs-toggle="dropdown"
+                    // data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
                   
                     PACKAGES
-                     <i className="fa-solid fa-angle-down"></i>
-                  </a>
-                  <ul className="dropdown-menu">
+                     {/* <i className="fa-solid fa-angle-down"></i> */}
+                  </Link>
+                  {/* <ul className="dropdown-menu">
                     <li>
                       <Link className="dropdown-item" to="/packages">
                         IPTV
@@ -169,7 +169,7 @@ const Header = () => {
                         Cable Tv
                       </Link>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
 
                 <li className="nav-item">

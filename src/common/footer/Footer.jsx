@@ -95,6 +95,10 @@ const   Footer = () => {
                     <i className="fas fa-square-full"></i>
                     <Link to="/refund">Refund & Cancellation</Link>
                   </li>
+                  <li>
+                    <i className="fas fa-square-full"></i>
+                    <Link to="/compliance">Compliance</Link>
+                  </li>
                  
                 </ul>
               </div>

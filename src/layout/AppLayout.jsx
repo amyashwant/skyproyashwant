@@ -12,6 +12,9 @@ import SignupPage from "../screens/SignupPage";
 import PrivacyPage from "../screens/PrivacyPage";
 import TermsPage from "../screens/TermsPage";
 import RefundPage from "../screens/RefundPage";
+import CompliencePage from "../screens/CompliancePage";
+import CompliancePage from "../screens/CompliancePage";
+import PackagePage from "../screens/PackagePage";
 
 const AppLayout = () => {
   return (
@@ -19,7 +22,7 @@ const AppLayout = () => {
       <Router>
         <Routes>
           <Route path="/" element={<Dashboard />} />
-          <Route path="/packages" element={<Packages />} />
+          <Route path="/packages" element={<PackagePage />} />
           <Route path="/teams" element={<TeamsPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/service" element={<ServicePage />} />
@@ -30,6 +33,7 @@ const AppLayout = () => {
           <Route path="/privacy" element={<PrivacyPage />} />
           <Route path="/terms" element={<TermsPage />} />
           <Route path="/refund" element={<RefundPage />} />
+          <Route path="/compliance" element={<CompliancePage />} />
         </Routes>
       </Router>
     </div>

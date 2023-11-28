@@ -6948,51 +6948,6 @@ footer.footer-area .footer-img {
 }
 
 /* privacy page css------------------------ */
-/* .bglight.privacy-section {
-  background: #fafafa;
-  margin-top: 50px;
-}
-.privacy-section ul {
-  line-height: 2;
-}
-
-.privacy-section ul li {
-  list-style: square;
-  margin-left: 20px;
-  color: #949494;
-}
-.privacy-section h3 {
-  color: #061d42;
-}
-.absimggCL {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
-.circle-right.circle-left {
-  left: auto;
-  right: -25px;
-  transform: rotate(-90deg);
-}
-.circle-right {
-  position: absolute;
-  position: absolute;
-  top: 41%;
-  left: -2%;
-  transform: translate(-50%, -50%);
-  height: 50px;
-  width: 100px;
-  border-radius: 150px 150px 0 0;
-  background-color: #e2edf4;
-  transform: rotate(90deg);
-}
-
-.privacy-section h4 {
-  color: #061d42;
-  font-size: 20px;
-  font-weight: 400;
-  margin: 12px 0px;
-} */
 
 .bglight.privacy-section {
   background: #fafafa;
@@ -7049,4 +7004,33 @@ footer.footer-area .footer-img {
   width: 20px;
   height: 21px;
   margin-right: 5px;
+}
+
+/* Complience page CSS------------------------------------------------------ */
+.documents-main {
+  padding: 40px 0px;
+}
+.documents-main h6 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #1c3979;
+  padding: 10px 0px;
+}
+.comp-description {
+  background-color: #ffffff;
+  padding: 1.3% 1.5%;
+  font-size: 17px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+a.downloadbtn {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 3.3% 2.5%;
+  color: #3aa9ff;
+  font-size: 15px;
+  /* width: 166px; */
+  justify-content: center;
+  text-align: center;
 }
