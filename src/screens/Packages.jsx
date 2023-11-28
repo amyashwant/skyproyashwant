@@ -10,6 +10,7 @@ import FooterContact from "../common/footerContact/FooterContact";
 import Footer from "../common/footer/Footer";
 import TopHeader from "../components/packagesComponents/headerPackage/TopHeader";
 import Header from "../common/header/Header";
+import Package from "../components/packagesComponents/packages/Packages";
 
 const Packages = () => {
   return (
@@ -18,11 +19,12 @@ const Packages = () => {
       {/* <TopHeader/> */}
       {/* <BottomHeader /> */}
       {/* <ToggleBar /> */}
-      <BreadCumb headerName="PACKAGES"/>
+      {/* <BreadCumb headerName="PACKAGES"/>
       <PricingPlan />
       <CallToAction />
       <FrequentAskedQues />
-      <FooterContact />
+      <FooterContact /> */}
+      <Package/>
       <Footer />
     </div>
   );
