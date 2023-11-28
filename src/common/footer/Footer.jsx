@@ -1,8 +1,8 @@
 import React from "react";
 import footerOne from "../../assets/images/home-01/logo/footer-logo.png";
-import logo from "../../assets/images/home-01/logo/white-logo.png"
+import logo from "../../assets/images/home-01/logo/white-logo.png";
 import { Link } from "react-router-dom";
-const   Footer = () => {
+const Footer = () => {
   return (
     <>
       <footer
@@ -81,10 +81,6 @@ const   Footer = () => {
                 <ul className="footer-menu">
                   <li>
                     <i className="fas fa-square-full"></i>
-                    <Link to="/packages">Cable TV</Link>
-                  </li>
-                  <li>
-                    <i className="fas fa-square-full"></i>
                     <Link to="/packages">IPTV</Link>
                   </li>
                   <li>
@@ -99,7 +95,6 @@ const   Footer = () => {
                     <i className="fas fa-square-full"></i>
                     <Link to="/compliance">Compliance</Link>
                   </li>
-                 
                 </ul>
               </div>
             </div>
