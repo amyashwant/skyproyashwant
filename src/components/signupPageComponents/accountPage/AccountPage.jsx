@@ -2,101 +2,101 @@ import React from "react";
 
 const AccountPage = () => {
   return (
-    <section class="account py-100">
-      <div class="container">
-        <div class="row gy-5 flex-wrap-reverse">
-          <div class="col-xl-7 col-lg-6 ">
+    <section className="account py-100">
+      <div className="container">
+        <div className="row gy-5 flex-wrap-reverse">
+          <div className="col-xl-7 col-lg-6 ">
             <div
-              class="fun-right-bg-img bg-img"
+              className="fun-right-bg-img bg-img"
             //   style="background-image: url(assets/images/home-02/fun/fun-bg.png);"
             >
               <img src="assets/images/home-02/fun/fun-img.png" alt="" />
             </div>
           </div>
-          <div class="col-xl-5 col-lg-6 ps-xl-5">
-            <div class="account-form">
-              <div class="section-header style-two">
-                <h4 class="subtitle">SIGN Up</h4>
-                <h2 class="title">CREATE AN ACCOUNT</h2>
+          <div className="col-xl-5 col-lg-6 ps-xl-5">
+            <div className="account-form">
+              <div className="section-header style-two">
+                <h4 className="subtitle">SIGN Up</h4>
+                <h2 className="title">CREATE AN ACCOUNT</h2>
               </div>
               <form action="#" autoComplete="off">
-                <div class="row gy-3">
-                  <div class="col-md-12">
-                    <div class="contact-form-field">
-                      <label for="userName" class="form-label form--label">
+                <div className="row gy-3">
+                  <div className="col-md-12">
+                    <div className="contact-form-field">
+                      <label for="userName" className="form-label form--label">
                         User Name
                       </label>
                       <input
                         type="text"
                         id="userName"
-                        class="form-control form--control"
+                        className="form-control form--control"
                         placeholder="Enter Your Name"
                         required=""
                       />
                     </div>
                   </div>
-                  <div class="col-md-12">
-                    <div class="contact-form-field">
-                      <label for="Emailaddress" class="form-label form--label">
+                  <div className="col-md-12">
+                    <div className="contact-form-field">
+                      <label for="Emailaddress" className="form-label form--label">
                         {" "}
                         Email Address
                       </label>
                       <input
                         type="email"
                         id="Emailaddress"
-                        class="form-control form--control"
+                        className="form-control form--control"
                         placeholder="Enter Your Email"
                         required=""
                       />
                     </div>
                   </div>
-                  <div class="col-sm-12">
-                    <div class="contact-form-field">
-                      <label class="form--label" for="password">
+                  <div className="col-sm-12">
+                    <div className="contact-form-field">
+                      <label className="form--label" for="password">
                         {" "}
                         Password
                       </label>
-                      <div class="input--group">
+                      <div className="input--group">
                         <input
                           id="password"
                           type="password"
-                          class="form-control form--control"
+                          className="form-control form--control"
                           value="password"
                         />
                         <span
                           id="#password"
-                          class="fa fa-fw field-icon toggle-password fa-eye"
+                          className="fa fa-fw field-icon toggle-password fa-eye"
                         ></span>
                       </div>
                     </div>
                   </div>
-                  <div class="col-sm-12">
-                    <div class="contact-form-field">
-                      <label class="form--label" for="re-password">
+                  <div className="col-sm-12">
+                    <div className="contact-form-field">
+                      <label className="form--label" for="re-password">
                         {" "}
                         Re Password
                       </label>
-                      <div class="input--group">
+                      <div className="input--group">
                         <input
                           id="re-password"
                           type="password"
-                          class="form-control form--control"
+                          className="form-control form--control"
                           value="re-password"
                         />
                         <span
                           id="#re-password"
-                          class="fa fa-fw field-icon toggle-password fa-eye"
+                          className="fa fa-fw field-icon toggle-password fa-eye"
                         ></span>
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-12">
-                    <div class="contact-form-field d-sm-flex flex-wrap justify-content-between align-items-center">
-                      <button type="submit" class="btn--base">
+                  <div className="col-md-12">
+                    <div className="contact-form-field d-sm-flex flex-wrap justify-content-between align-items-center">
+                      <button type="submit" className="btn--base">
                         {" "}
                         SIGN UP YOUR ACCOUNT
                       </button>
-                      <p class="text text-dark fw-normal mt-sm-0 mt-2">
+                      <p className="text text-dark fw-normal mt-sm-0 mt-2">
                         Already Have An Account? <a href="login.html">Log in</a>
                       </p>
                     </div>

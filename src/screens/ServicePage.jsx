@@ -10,6 +10,7 @@ import Footer from "../common/footer/Footer";
 import Header from "../common/header/Header";
 
 const ServicePage = () => {
+  window.scrollTo(0, 0);
   return (
     <>
       <Header />

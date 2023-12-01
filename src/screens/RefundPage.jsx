@@ -5,6 +5,7 @@ import FooterContact from "../common/footerContact/FooterContact";
 import Footer from "../common/footer/Footer";
 
 const RefundPage = () => {
+  window.scrollTo(0, 0);
   return (
     <div>
       <Header />

@@ -1,8 +1,35 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import footerOne from "../../assets/images/home-01/logo/footer-logo.png";
 import logo from "../../assets/images/home-01/logo/white-logo.png";
 import { Link } from "react-router-dom";
+
 const Footer = () => {
+  const [showButton, setShowButton] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 300) {
+        setShowButton(true);
+      } else {
+        setShowButton(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  const scrollToTop = (e) => {
+    e.preventDefault();
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <>
       <footer
@@ -130,9 +157,14 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-      <a className="scroll-top">
-        <i className="fas fa-angle-double-up"></i>
-      </a>
+
+      <div>
+        {showButton && (
+          <a className={`scroll-top show`} onClick={scrollToTop}>
+            <i className="fas fa-angle-double-up"></i>
+          </a>
+        )}
+      </div>
     </>
   );
 };

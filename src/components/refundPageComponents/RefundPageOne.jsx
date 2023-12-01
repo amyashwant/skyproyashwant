@@ -4,17 +4,17 @@ import refundTwo from "../../assets/images/refund/why360-patten.png"
 const RefundPageOne = () => {
   return (
     <>
-      <section class="py-5 position-relative bglight privacy-section">
-        <div class="circle-right circle-left d-none d-lg-block"></div>
-        <img src={refundTwo} class="absimggCL" width="50" />
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12">
-              <h3 class="mt-0">Refund and Cancellation Policy</h3>
+      <section className="py-5 position-relative bglight privacy-section">
+        <div className="circle-right circle-left d-none d-lg-block"></div>
+        <img src={refundTwo} className="absimggCL" width="50" />
+        <div className="container">
+          <div className="row">
+            <div className="col-sm-12">
+              <h3 className="mt-0">Refund and Cancellation Policy</h3>
 
-              <p class="mb-1">
+              <p className="mb-1">
                 last updated:{" "}
-                <span class="bluClr" style={{ color: "#337ab7" }}>
+                <span className="bluClr" style={{ color: "#337ab7" }}>
                   November 2023
                 </span>
               </p>
@@ -31,7 +31,7 @@ const RefundPageOne = () => {
                 liberty to cancel their order and request a refund from us. Our
                 Policy for the cancellation and refund will be as follows:
               </h4>
-              <p class="cost-clr">
+              <p className="cost-clr">
                 <span>
                   <img src={refundImg} />
                 </span>
@@ -43,7 +43,7 @@ const RefundPageOne = () => {
                 of the current service period will be treated as cancellation of
                 services for the next service period.
               </p>
-              <p class="cost-clr">
+              <p className="cost-clr">
                 <span>
                   <img src={refundImg} />
                 </span>
@@ -61,8 +61,8 @@ const RefundPageOne = () => {
           </div>
         </div>
       </section>
-      <a class="scroll-top">
-        <i class="fas fa-angle-double-up"></i>
+      <a className="scroll-top">
+        <i className="fas fa-angle-double-up"></i>
       </a>
     </>
   );

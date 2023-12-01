@@ -7,6 +7,7 @@ import BeadCumb from "../components/aboutPageComponents/beadCumb/BeadCumb";
 import PaymentSection from "../components/packagePageComponents/PaymentSection";
 
 const PackagePage = () => {
+  window.scrollTo(0, 0);
   return (
     <div>
       <Header />

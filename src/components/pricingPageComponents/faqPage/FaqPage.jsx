@@ -3,25 +3,25 @@ import React from "react";
 const FaqPage = () => {
   return (
     <section
-      class="faq py-100 bg-img overlay-bg"
+      className="faq py-100 bg-img overlay-bg"
     //   style="background-image: url(assets/images/home-01/offer/offer-bg.png);"
     >
-      <div class="container">
-        <div class="row justify-content-end">
-          <div class="col-lg-6">
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="section-header style-two">
-                  <h4 class="subtitle"> FAQ </h4>
-                  <h2 class="title">A FREQUENTLY ASKED QUESTIONS</h2>
+      <div className="container">
+        <div className="row justify-content-end">
+          <div className="col-lg-6">
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="section-header style-two">
+                  <h4 className="subtitle"> FAQ </h4>
+                  <h2 className="title">A FREQUENTLY ASKED QUESTIONS</h2>
                 </div>
               </div>
             </div>
-            <div class="accordion custom--accordion" id="accordionExample">
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingOne">
+            <div className="accordion custom--accordion" id="accordionExample">
+              <div className="accordion-item">
+                <h2 className="accordion-header" id="headingOne">
                   <button
-                    class="accordion-button"
+                    className="accordion-button"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseOne"
@@ -33,11 +33,11 @@ const FaqPage = () => {
                 </h2>
                 <div
                   id="collapseOne"
-                  class="accordion-collapse collapse show"
+                  className="accordion-collapse collapse show"
                   aria-labelledby="headingOne"
                   data-bs-parent="#accordionExample"
                 >
-                  <div class="accordion-body">
+                  <div className="accordion-body">
                     <p>
                       The association speed accessible at the gadget we
                       introduce on your premises is fit for sending
@@ -48,10 +48,10 @@ const FaqPage = () => {
                 </div>
               </div>
 
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingTwo">
+              <div className="accordion-item">
+                <h2 className="accordion-header" id="headingTwo">
                   <button
-                    class="accordion-button collapsed"
+                    className="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseTwo"
@@ -63,11 +63,11 @@ const FaqPage = () => {
                 </h2>
                 <div
                   id="collapseTwo"
-                  class="accordion-collapse collapse"
+                  className="accordion-collapse collapse"
                   aria-labelledby="headingTwo"
                   data-bs-parent="#accordionExample"
                 >
-                  <div class="accordion-body">
+                  <div className="accordion-body">
                     <p>
                       Indeed. The hardware we will give is intended to give you
                       Internet access through the wired association. You may
@@ -78,10 +78,10 @@ const FaqPage = () => {
                 </div>
               </div>
 
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingThree">
+              <div className="accordion-item">
+                <h2 className="accordion-header" id="headingThree">
                   <button
-                    class="accordion-button collapsed"
+                    className="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseThree"
@@ -93,11 +93,11 @@ const FaqPage = () => {
                 </h2>
                 <div
                   id="collapseThree"
-                  class="accordion-collapse collapse"
+                  className="accordion-collapse collapse"
                   aria-labelledby="headingThree"
                   data-bs-parent="#accordionExample"
                 >
-                  <div class="accordion-body">
+                  <div className="accordion-body">
                     <p>
                       Indeed. We suggest a 802.11ac or AX (Wi-Fi6)
                       switch/passageway with the ability to help various streams
@@ -109,10 +109,10 @@ const FaqPage = () => {
                 </div>
               </div>
 
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingFour">
+              <div className="accordion-item">
+                <h2 className="accordion-header" id="headingFour">
                   <button
-                    class="accordion-button collapsed"
+                    className="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseFour"
@@ -124,11 +124,11 @@ const FaqPage = () => {
                 </h2>
                 <div
                   id="collapseFour"
-                  class="accordion-collapse collapse"
+                  className="accordion-collapse collapse"
                   aria-labelledby="headingFour"
                   data-bs-parent="#accordionExample"
                 >
-                  <div class="accordion-body">
+                  <div className="accordion-body">
                     <p>
                       CAT5e and Cat6 Ethernet links best help Point Broadband
                       Gigabit speeds.
@@ -137,10 +137,10 @@ const FaqPage = () => {
                 </div>
               </div>
 
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingFive">
+              <div className="accordion-item">
+                <h2 className="accordion-header" id="headingFive">
                   <button
-                    class="accordion-button collapsed"
+                    className="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseFive"
@@ -152,11 +152,11 @@ const FaqPage = () => {
                 </h2>
                 <div
                   id="collapseFive"
-                  class="accordion-collapse collapse"
+                  className="accordion-collapse collapse"
                   aria-labelledby="headingFive"
                   data-bs-parent="#accordionExample"
                 >
-                  <div class="accordion-body">
+                  <div className="accordion-body">
                     <p>
                       Fiber Internet is the latest improvement to the way data
                       is transferred around the world. It’s significantly faster

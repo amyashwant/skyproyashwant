@@ -10,6 +10,7 @@ import BeadCumbCommon from "../common/beadcumbCommon/BeadCumbCommon";
 import contactImg from "../assets/images/breadcumb/_1530667899_390_yEZPsIaoTI3ZNDdB-croppedUundb-jpg-details.jpg";
 
 const ContactPage = () => {
+  window.scrollTo(0, 0);
   return (
     <>
       <Header />

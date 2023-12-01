@@ -16,6 +16,7 @@ import BottomHeader from "../components/packagesComponents/headerPackage/BottomH
 import ToggleBar from "../components/packagesComponents/toggleBar/ToggleBar";
 
 const Dashboard = () => {
+  window.scrollTo(0, 0);
   return (
     <div>
       <Header />

@@ -6,34 +6,34 @@ import aboutFour from "../../../assets/images/home-01/about/dot-shape.png"
 import aboutFive from "../../../assets/images/home-01/about/testi-01.png"
 const AboutPages = () => {
   return (
-    <section class="about py-100">
-      <div class="container">
-        <div class="row gy-md-5 gy-4">
-          <div class="col-lg-6">
-            <div class="row">
-              <div class="col-sm-6">
-                <div class="about-left-thumb">
+    <section className="about py-100">
+      <div className="container">
+        <div className="row gy-md-5 gy-4">
+          <div className="col-lg-6">
+            <div className="row">
+              <div className="col-sm-6">
+                <div className="about-left-thumb">
                   <img
-                    class="w-100"
+                    className="w-100"
                     src={aboutOne}
                     alt=""
                   />
                 </div>
               </div>
-              <div class="col-sm-6">
-                <div class="about-right-thumb">
+              <div className="col-sm-6">
+                <div className="about-right-thumb">
                   <img
-                    class="w-100"
+                    className="w-100"
                     src={aboutTwo}
                     alt=""
                   />
                   <img
-                    class="w-100"
+                    className="w-100"
                     src={aboutThree}
                     alt=""
                   />
                   <img
-                    class="w-100"
+                    className="w-100"
                     src={aboutFour}
                     alt=""
                   />
@@ -41,41 +41,41 @@ const AboutPages = () => {
               </div>
             </div>
           </div>
-          <div class="col-lg-6">
-            <div class="about-right-content ps-lg-5">
-              <div class="row">
-                <div class="col-lg-12">
-                  <div class="section-header style-two">
-                    <h4 class="subtitle"> ABOUT US</h4>
-                    <h2 class="title">DISCOVER A WINDER WORD OF RERATION</h2>
+          <div className="col-lg-6">
+            <div className="about-right-content ps-lg-5">
+              <div className="row">
+                <div className="col-lg-12">
+                  <div className="section-header style-two">
+                    <h4 className="subtitle"> ABOUT US</h4>
+                    <h2 className="title">DISCOVER A WINDER WORD OF RERATION</h2>
                   </div>
                 </div>
               </div>
-              <p class="para pb-4">
+              <p className="para pb-4">
                 {" "}
                 Broadband Internet has progressed significantly since its
                 foundation in 1997.
               </p>
-              <p class="para">
+              <p className="para">
                 We have developed reliably and naturally as an interchange
                 supplier serving an assorted arrangement of business class voice
                 and information administrations
               </p>
-              <div class="about-client">
-                <div class="about-meta d-flex align-items-center flex-wrap">
-                  <div class="meta-thumb">
+              <div className="about-client">
+                <div className="about-meta d-flex align-items-center flex-wrap">
+                  <div className="meta-thumb">
                     <img
                       src={aboutFive}
                       alt=""
                     />
                   </div>
-                  <div class="meta-content">
-                    <h5 class="name">Wade warren</h5>
-                    <span class="designation">CEO</span>
+                  <div className="meta-content">
+                    <h5 className="name">Wade warren</h5>
+                    <span className="designation">CEO</span>
                   </div>
                 </div>
-                <div class="about-button">
-                  <a href="about.html" class="btn--base">
+                <div className="about-button">
+                  <a href="about.html" className="btn--base">
                     DISCOVER MORE
                   </a>
                 </div>

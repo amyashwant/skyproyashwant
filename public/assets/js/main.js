@@ -196,28 +196,28 @@
   // ========================= Preloader Js End=====================
 
   // ========================= Header Sticky Js Start =====================
-  $(window).scroll(function () {
-    if ($(window).scrollTop() >= 1) {
-      $(".header-bottom").addClass("fixed-header");
-    } else {
-      $(".header-bottom").removeClass("fixed-header");
-    }
-  });
+  // $(window).scroll(function () {
+  //   if ($(window).scrollTop() >= 1) {
+  //     $(".header-bottom").addClass("fixed-header");
+  //   } else {
+  //     $(".header-bottom").removeClass("fixed-header");
+  //   }
+  // });
   // ========================= Header Sticky Js End=====================
 
   //================================= Scroll To Top Icon Js Start =========================
-  var btn = $(".scroll-top");
-  $(window).scroll(function () {
-    if ($(window).scrollTop() > 300) {
-      btn.addClass("show");
-    } else {
-      btn.removeClass("show");
-    }
-  });
+  // var btn = $(".scroll-top");
+  // $(window).scroll(function () {
+  //   if ($(window).scrollTop() > 300) {
+  //     btn.addClass("show");
+  //   } else {
+  //     btn.removeClass("show");
+  //   }
+  // });
 
-  btn.on("click", function (e) {
-    e.preventDefault();
-    $("html, body").animate({ scrollTop: 0 }, "300");
-  });
+  // btn.on("click", function (e) {
+  //   e.preventDefault();
+  //   $("html, body").animate({ scrollTop: 0 }, "300");
+  // });
   //================================= Scroll To Top Icon Js End ===========================
 })(jQuery);

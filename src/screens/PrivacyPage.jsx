@@ -5,6 +5,7 @@ import Footer from "../common/footer/Footer";
 import PrivacyPageOne from "../components/privacyPageComponents/PrivacyPageOne";
 
 const PrivacyPage = () => {
+  window.scrollTo(0, 0);
   return (
     <>
       <Header />

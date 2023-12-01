@@ -2,22 +2,22 @@ import React from "react";
 import termsOne from "../../assets/images/refund/why360-patten.png"
 const TermsPageOne = () => {
   return (
-    <section class="py-5 position-relative bglight privacy-section">
-      <div class="circle-right circle-left d-none d-lg-block"></div>
+    <section className="py-5 position-relative bglight privacy-section">
+      <div className="circle-right circle-left d-none d-lg-block"></div>
       <img
         src={termsOne}
-        class="absimggCL"
+        className="absimggCL"
         width="50"
       />
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <h3 class="mt-0">Terms and Conditions</h3>
+      <div className="container">
+        <div className="row">
+          <div className="col-sm-12">
+            <h3 className="mt-0">Terms and Conditions</h3>
 
-            <p class="mb-1">
+            <p className="mb-1">
               last updated:{" "}
               <span
-                class="bluClr"
+                className="bluClr"
                    style={{color:"#337ab7"}}
               >
                 November 2023
@@ -29,7 +29,7 @@ const TermsPageOne = () => {
               Act, 1995 & Rules 1994, Amended Act, 2012 and amendment made from
               time to time set out herein:
             </h4>
-            <ul class="list-style">
+            <ul className="list-style">
               <li>
                 The Applicant shall apply for connection as per the scheme of
                 prepaid or post paid selected by him and in case of new

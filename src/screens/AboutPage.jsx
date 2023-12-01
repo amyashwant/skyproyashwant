@@ -13,9 +13,10 @@ import Footer from "../common/footer/Footer";
 import Header from "../common/header/Header";
 
 const AboutPage = () => {
+  window.scrollTo(0, 0);
   return (
     <>
-    <Header/>
+      <Header />
       {/* <TopHeader /> */}
       {/* <BottomHeader /> */}
       <BeadCumb />

@@ -7,139 +7,139 @@ import teamFour from "../../../assets/images/home-01/about/team-03.png";
 const TeamPage = () => {
   return (
     <section
-      class="team bg-img overlay-bg pt-100 pb-50"
+      className="team bg-img overlay-bg pt-100 pb-50"
       //  style="background-image: url(assets/images/about/team/team-bg.png);"
       style={{
         backgroundImage: `url(${teamOne})`,
       }}
     >
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-6">
-            <div class="section-header">
-              <h4 class="subtitle">OUR TEAM</h4>
-              <h2 class="title text-white">MEET OUR EXPERTS TEAM</h2>
+      <div className="container">
+        <div className="row justify-content-center">
+          <div className="col-lg-6">
+            <div className="section-header">
+              <h4 className="subtitle">OUR TEAM</h4>
+              <h2 className="title text-white">MEET OUR EXPERTS TEAM</h2>
             </div>
           </div>
         </div>
-        <div class="row justify-content-center g-4">
-          <div class="col-lg-4 col-md-6">
-            <div class="team-item">
-              <div class="thumb">
+        <div className="row justify-content-center g-4">
+          <div className="col-lg-4 col-md-6">
+            <div className="team-item">
+              <div className="thumb">
                 <img src={teamTwo} alt="" />
-                <div class="share-icon">
-                  <a href="javascript: void(0)" class="icon-share"></a>
-                  <div class="popup-share-icons">
-                    <ul class="popup-icons d-flex">
+                <div className="share-icon">
+                  <a href="javascript: void(0)" className="icon-share"></a>
+                  <div className="popup-share-icons">
+                    <ul className="popup-icons d-flex">
                       <li>
                         <a href="#">
-                          <i class="fab fa-facebook-f"></i>
+                          <i className="fab fa-facebook-f"></i>
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          <i class="fab fa-twitter"></i>
+                          <i className="fab fa-twitter"></i>
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          <i class="fab fa-linkedin-in"></i>
+                          <i className="fab fa-linkedin-in"></i>
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          <i class="fab fa-instagram"></i>
+                          <i className="fab fa-instagram"></i>
                         </a>
                       </li>
                     </ul>
                   </div>
                 </div>
               </div>
-              <div class="content">
-                <h4 class="name">
+              <div className="content">
+                <h4 className="name">
                   <a href="team-details.html">DARLENE ROBERTSON</a>
                 </h4>
-                <span class="designation">Ceo</span>
+                <span className="designation">Ceo</span>
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="team-item">
-              <div class="thumb">
+          <div className="col-lg-4 col-md-6">
+            <div className="team-item">
+              <div className="thumb">
                 <img src={teamThree} alt="" />
-                <div class="share-icon">
-                  <a href="javascript: void(0)" class="icon-share"></a>
-                  <div class="popup-share-icons">
-                    <ul class="popup-icons d-flex">
+                <div className="share-icon">
+                  <a href="javascript: void(0)" className="icon-share"></a>
+                  <div className="popup-share-icons">
+                    <ul className="popup-icons d-flex">
                       <li>
                         <a href="#">
-                          <i class="fab fa-facebook-f"></i>
+                          <i className="fab fa-facebook-f"></i>
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          <i class="fab fa-twitter"></i>
+                          <i className="fab fa-twitter"></i>
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          <i class="fab fa-linkedin-in"></i>
+                          <i className="fab fa-linkedin-in"></i>
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          <i class="fab fa-instagram"></i>
+                          <i className="fab fa-instagram"></i>
                         </a>
                       </li>
                     </ul>
                   </div>
                 </div>
               </div>
-              <div class="content">
-                <h4 class="name">
+              <div className="content">
+                <h4 className="name">
                   <a href="team-details.html">AHMADULLAH</a>
                 </h4>
-                <span class="designation">Founder</span>
+                <span className="designation">Founder</span>
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="team-item">
-              <div class="thumb">
+          <div className="col-lg-4 col-md-6">
+            <div className="team-item">
+              <div className="thumb">
                 <img src={teamFour} alt="" />
-                <div class="share-icon">
-                  <a href="javascript: void(0)" class="icon-share"></a>
-                  <div class="popup-share-icons">
-                    <ul class="popup-icons d-flex">
+                <div className="share-icon">
+                  <a href="javascript: void(0)" className="icon-share"></a>
+                  <div className="popup-share-icons">
+                    <ul className="popup-icons d-flex">
                       <li>
                         <a href="#">
-                          <i class="fab fa-facebook-f"></i>
+                          <i className="fab fa-facebook-f"></i>
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          <i class="fab fa-twitter"></i>
+                          <i className="fab fa-twitter"></i>
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          <i class="fab fa-linkedin-in"></i>
+                          <i className="fab fa-linkedin-in"></i>
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          <i class="fab fa-instagram"></i>
+                          <i className="fab fa-instagram"></i>
                         </a>
                       </li>
                     </ul>
                   </div>
                 </div>
               </div>
-              <div class="content">
-                <h4 class="name">
+              <div className="content">
+                <h4 className="name">
                   <a href="team-details.html">CHARLES BRADFORD</a>
                 </h4>
-                <span class="designation">Admin</span>
+                <span className="designation">Admin</span>
               </div>
             </div>
           </div>

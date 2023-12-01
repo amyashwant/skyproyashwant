@@ -1,6 +1,18 @@
 import React, { useState } from "react";
 import PaymentModal from "./PaymentModal";
 import { useSelector } from "react-redux";
+import MultiForm from "./multiform/MultiForm";
+
+// const SecondModal = ({ handleClose }) => {
+//   return (
+//     <div className="modal">
+//       <p>
+//         <MultiForm />
+//       </p>
+//       <button onClick={handleClose}>Close</button>
+//     </div>
+//   );
+// };
 
 const PaymentSection = () => {
   const [showModal, setShowModal] = useState(false);
@@ -30,7 +42,8 @@ const PaymentSection = () => {
                   </span>
                   <p>
                     <span>
-                      <span className="add_cart">{cartItems.length}</span>View Cart
+                      <span className="add_cart">{cartItems.length}</span>View
+                      Cart
                     </span>
                   </p>
                 </div>
@@ -39,40 +52,14 @@ const PaymentSection = () => {
           </div>
         </div>
       </div>
-      <PaymentModal show={showModal} handleClose={handleCloseModal}>
-        <div className="your-shoping-cart">
-          <div className="container">
-            <div className="title-box">
-              <h1>Your Cart</h1>
-            </div>
-            <div className="product-box">
-              <div className="info-box">
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry.
-                </p>
-              </div>
-            </div>
-            <hr />
-            <div className="cost-box">
-              <div>
-                <p>Standard Package</p>
-                <p>₹ 0</p>
-              </div>
-              <div>
-                <p>Total VAT</p>
-                <p className="VAT">-</p>
-              </div>
-              <div>
-                <p>Total NOK</p>
-                <p className="NOK">₹ 0</p>
-              </div>
-            </div>
-            <button className="Checkout-btn">Checkout</button>
-              
-          </div>
-        </div>
-      </PaymentModal>
+      <PaymentModal show={showModal} handleClose={handleCloseModal} />
+
+      {/* {showSecondModal && (
+          <>
+            <SecondModal />
+          </>
+        )} */}
+      {/* </PaymentModal> */}
     </>
   );
 };

@@ -12,6 +12,7 @@ import TopHeader from "../components/packagesComponents/headerPackage/TopHeader"
 import Header from "../common/header/Header";
 
 const Packages = () => {
+  window.scrollTo(0, 0);
   return (
     <div>
       <Header/>

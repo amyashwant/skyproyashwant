@@ -2464,11 +2464,11 @@ ul[class*="custom--tab"] li:last-child button {
   font-size: 16px;
   z-index: 5;
   -webkit-transition: 0.5s;
-  transition: 0.5s;
+  transition: 0.5s ;
   cursor: pointer;
-  visibility: hidden;
-  opacity: 0;
-  bottom: 210px;
+  /* visibility: hidden; */
+  /* opacity: 0; */
+  /* bottom: 210px; */
 }
 
 .scroll-top:hover {
@@ -7164,3 +7164,5 @@ a.downloadbtn {
 .your-shoping-cart button.Checkout-btn:hover {
   background: #3aa9ff;
 }
+
+/* footer scroll top css----------------------------------------------------- */

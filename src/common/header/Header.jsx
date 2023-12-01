@@ -14,7 +14,7 @@ const Header = () => {
       <header className="header-bottom home-two-header">
         <div className="container">
           <nav className="navbar navbar-expand-lg navbar-light">
-            <Link className="navbar-brand logo" to="/packages">
+            <Link className="navbar-brand logo" to="/">
               <img src={bottomImg} alt="img" />
             </Link>
             <button
