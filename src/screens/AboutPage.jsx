@@ -9,7 +9,8 @@ import BrandPage from "../components/aboutPageComponents/brandPage.jsx/BrandPage
 import FooterContact from "../common/footerContact/FooterContact";
 import Footer from "../common/footer/Footer";
 import Header from "../common/header/Header";
-
+import BeadCumbCommon from "../common/beadcumbCommon/BeadCumbCommon";
+import bgImg from "../assets/images/breadcumb/Artboard-2.webp";
 const AboutPage = () => {
   window.scrollTo(0, 0);
   return (
@@ -17,7 +18,7 @@ const AboutPage = () => {
       <Header />
       {/* <TopHeader /> */}
       {/* <BottomHeader /> */}
-      <BeadCumb />
+      <BeadCumbCommon titleOne="About Us" titleTwo="About US" bgImg={bgImg} />
       <AboutPages />
       <OfferPage />
       <TeamPage />

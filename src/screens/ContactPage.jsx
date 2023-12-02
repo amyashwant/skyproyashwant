@@ -17,7 +17,7 @@ const ContactPage = () => {
       {/* <TopHeader /> */}
       {/* <BottomHeader /> */}
       {/* <BeadCumb /> */}
-      <BeadCumbCommon title="CONTACT US" bgImg={contactImg}/>
+      <BeadCumbCommon titleOne="CONTACT US" titleTwo="CONTACT US" bgImg={contactImg}/>
       <Contact />
       <MapCompany />
       <Footer />

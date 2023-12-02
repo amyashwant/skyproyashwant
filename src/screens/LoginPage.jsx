@@ -6,7 +6,8 @@ import AccountPage from "../components/loginPageComponents/accountPage/AccountPa
 import FooterContact from "../common/footerContact/FooterContact";
 import Footer from "../common/footer/Footer";
 import Header from "../common/header/Header";
-
+import BeadCumbCommon from "../common/beadcumbCommon/BeadCumbCommon";
+import bgImg from "../assets/images/authentication/breadcumb.png"
 const LoginPage = () => {
   window.scrollTo(0, 0);
   return (
@@ -14,7 +15,8 @@ const LoginPage = () => {
       <Header />
       {/* <TopHeader /> */}
       {/* <BottomHeader /> */}
-      <BeadCumb />
+      {/* <BeadCumb /> */}
+      <BeadCumbCommon titleOne="LOG IN YOUR ACCOUNT" titleTwo="LOG IN" bgImg={bgImg} />
       <AccountPage />
       <FooterContact />
       <Footer />

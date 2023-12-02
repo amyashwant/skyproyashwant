@@ -17,7 +17,7 @@ const PricingPage = () => {
       {/* <TopHeader/> */
       }
       {/* <BottomHeader/> */}
-      <BreadCumb/>
+      {/* <BreadCumb/> */}
       <PricingPlan/>
       <CtaPage/>
       <FaqPage/>

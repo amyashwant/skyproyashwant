@@ -6,7 +6,8 @@ import AccountPage from "../components/signupPageComponents/accountPage/AccountP
 import FooterContact from "../common/footerContact/FooterContact";
 import Footer from "../common/footer/Footer";
 import Header from "../common/header/Header";
-
+import BeadCumbCommon from "../common/beadcumbCommon/BeadCumbCommon";
+import bgImg from "../assets/images/authentication/breadcumb.png"
 const SignupPage = () => {
   window.scrollTo(0, 0);
   return (
@@ -14,7 +15,7 @@ const SignupPage = () => {
       <Header />
       {/* <TopHeader /> */}
       {/* <BottomHeader /> */}
-      <BeadCumb />
+      <BeadCumbCommon titleOne="SIGN UP YOUR ACCOUNT" titleTwo="SIGN UP" bgImg={bgImg} />
       <AccountPage />
       <FooterContact />
       <Footer />

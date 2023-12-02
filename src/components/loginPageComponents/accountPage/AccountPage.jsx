@@ -66,6 +66,7 @@ const AccountPage = () => {
                           id="password"
                           type="password"
                           className="form-control form--control"
+                          placeholder="Enter your password"
                           // value="password"
                         />
                         <span

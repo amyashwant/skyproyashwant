@@ -66,7 +66,8 @@ const AccountPage = () => {
                         <input
                           id="password"
                           type="password"
-                          className="form-control form--control"
+                          className="form-control form--control"  
+                          placeholder="Enter your password"
                           // value="password"
                         />
                         <span
@@ -86,6 +87,7 @@ const AccountPage = () => {
                           id="re-password"
                           type="password"
                           className="form-control form--control "
+                          placeholder="Re enter password"
                           // value="re-password"
                         />
                         <span
