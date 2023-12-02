@@ -25,13 +25,13 @@ const Header = () => {
             <div class="top-button d-flex flex-wrap justify-content-between align-items-center">
               <ul class="login-registration d-flex flex-wrap justify-content-between align-items-center">
                 <li>
-                  <a href="login.html">
+                  <Link to="/login">
                     <span class="icon-user-1"></span> Login
-                  </a>
+                  </Link>
                 </li>
                 <li>/</li>
                 <li>
-                  <a href="registration.html">Register</a>
+                  <Link to="/register">Register</Link>
                 </li>
               </ul>
             </div>

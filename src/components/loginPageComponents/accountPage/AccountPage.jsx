@@ -1,6 +1,14 @@
 import React from "react";
-
+import loginOne from "../../../assets/images/authentication/account-01.png"
+import loginTwo from "../../../assets/images/authentication/account-02.png"
+import { Link } from "react-router-dom";
 const AccountPage = () => {
+
+  const handleClick=()=>{
+    alert("thanks")
+  }
+
+
   return (
     <section className="account py-100">
       <div className="container">
@@ -11,15 +19,15 @@ const AccountPage = () => {
                 <span>
                   <img
                     className="w-100"
-                    src="assets/images/account/account-02.png"
-                    alt=""
+                    src={loginTwo}
+                    alt="img"
                   />
                 </span>
                 <span>
                   <img
                     className="w-100"
-                    src="assets/images/account/account-01.png"
-                    alt=""
+                    src={loginOne}
+                    alt="img"
                   />
                 </span>
               </div>
@@ -32,7 +40,7 @@ const AccountPage = () => {
                 <h4 className="subtitle">LOG IN</h4>
                 <h2 className="title">WELCOME TO BACK</h2>
               </div>
-              <form action="#" autoComplete="off">
+              <form onSubmit={handleClick} autoComplete="off">
                 <div className="row gy-3">
                   <div className="col-md-12">
                     <div className="contact-form-field">
@@ -44,14 +52,13 @@ const AccountPage = () => {
                         id="userName"
                         className="form-control form--control"
                         placeholder="Enter Your Name"
-                        required=""
+                        required={true} 
                       />
                     </div>
                   </div>
                   <div className="col-sm-12">
                     <div className="contact-form-field">
                       <label className="form--label" for="password">
-                        {" "}
                         Password
                       </label>
                       <div className="input--group">
@@ -59,7 +66,7 @@ const AccountPage = () => {
                           id="password"
                           type="password"
                           className="form-control form--control"
-                          value="password"
+                          // value="password"
                         />
                         <span
                           id="#password"
@@ -71,11 +78,9 @@ const AccountPage = () => {
                   <div className="col-md-12">
                     <div className="contact-form-field d-sm-flex flex-wrap justify-content-between align-items-center">
                       <button type="submit" className="btn--base">
-                        {" "}
                         SIGN UP YOUR ACCOUNT
                       </button>
                       <p className="text text-dark fw-normal mt-sm-0 mt-2">
-                        {" "}
                         <a href="#" className="forgot">
                           Forgot Password?
                         </a>
@@ -91,8 +96,8 @@ const AccountPage = () => {
                   <div className="col-md-12">
                     <div className="contact-form-field">
                       <p className="text text-dark fw-normal">
-                        Don't Have An Account?{" "}
-                        <a href="registration.html">Sign Up</a>
+                        Don't Have An Account?
+                        <Link to="/register">Sign Up</Link>
                       </p>
                     </div>
                   </div>

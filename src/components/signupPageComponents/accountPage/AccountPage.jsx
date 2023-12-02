@@ -1,4 +1,7 @@
 import React from "react";
+import signupOne from "../../../assets/images/authentication/fun-bg.png";
+import signupTwo from "../../../assets/images/authentication/fun-img.png";
+import { Link } from "react-router-dom";
 
 const AccountPage = () => {
   return (
@@ -8,9 +11,11 @@ const AccountPage = () => {
           <div className="col-xl-7 col-lg-6 ">
             <div
               className="fun-right-bg-img bg-img"
-            //   style="background-image: url(assets/images/home-02/fun/fun-bg.png);"
+              style={{
+                backgroundImage: `url(${signupOne})`,
+              }}
             >
-              <img src="assets/images/home-02/fun/fun-img.png" alt="" />
+              <img src={signupTwo} alt="" />
             </div>
           </div>
           <div className="col-xl-5 col-lg-6 ps-xl-5">
@@ -31,14 +36,16 @@ const AccountPage = () => {
                         id="userName"
                         className="form-control form--control"
                         placeholder="Enter Your Name"
-                        required=""
+                        required={true}
                       />
                     </div>
                   </div>
                   <div className="col-md-12">
                     <div className="contact-form-field">
-                      <label for="Emailaddress" className="form-label form--label">
-                        {" "}
+                      <label
+                        for="Emailaddress"
+                        className="form-label form--label"
+                      >
                         Email Address
                       </label>
                       <input
@@ -46,14 +53,13 @@ const AccountPage = () => {
                         id="Emailaddress"
                         className="form-control form--control"
                         placeholder="Enter Your Email"
-                        required=""
+                        required={true}
                       />
                     </div>
                   </div>
                   <div className="col-sm-12">
                     <div className="contact-form-field">
                       <label className="form--label" for="password">
-                        {" "}
                         Password
                       </label>
                       <div className="input--group">
@@ -61,7 +67,7 @@ const AccountPage = () => {
                           id="password"
                           type="password"
                           className="form-control form--control"
-                          value="password"
+                          // value="password"
                         />
                         <span
                           id="#password"
@@ -73,15 +79,14 @@ const AccountPage = () => {
                   <div className="col-sm-12">
                     <div className="contact-form-field">
                       <label className="form--label" for="re-password">
-                        {" "}
                         Re Password
                       </label>
                       <div className="input--group">
                         <input
                           id="re-password"
                           type="password"
-                          className="form-control form--control"
-                          value="re-password"
+                          className="form-control form--control "
+                          // value="re-password"
                         />
                         <span
                           id="#re-password"
@@ -93,11 +98,10 @@ const AccountPage = () => {
                   <div className="col-md-12">
                     <div className="contact-form-field d-sm-flex flex-wrap justify-content-between align-items-center">
                       <button type="submit" className="btn--base">
-                        {" "}
                         SIGN UP YOUR ACCOUNT
                       </button>
                       <p className="text text-dark fw-normal mt-sm-0 mt-2">
-                        Already Have An Account? <a href="login.html">Log in</a>
+                        Already Have An Account? <Link to="/login">Log in</Link>
                       </p>
                     </div>
                   </div>
