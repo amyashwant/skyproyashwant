@@ -1,7 +1,7 @@
 import React from "react";
-import testiOne from "../../../assets/images/home-01/about/testimonial-01.png"
-import testiTwo from "../../../assets/images/home-01/about/testimonial-01.png"
-import testiThree from "../../../assets/images/home-01/about/testimonial-01.png"
+import testiOne from "../../../assets/images/home-01/about/testimonial-01.png";
+import testiTwo from "../../../assets/images/home-01/about/testimonial-01.png";
+import testiThree from "../../../assets/images/home-01/about/testimonial-01.png";
 const TestimonialPage = () => {
   return (
     <section className="testimonial style-two py-100 pb-50">
@@ -19,10 +19,7 @@ const TestimonialPage = () => {
             <div className="testimonail-wrapper">
               <div className="testimonial-item">
                 <div className="thumb">
-                  <img
-                    src={testiOne}
-                    alt=""
-                  />
+                  <img src={testiOne} alt="img" />
                 </div>
                 <div
                   className="background-img"
@@ -57,8 +54,7 @@ const TestimonialPage = () => {
                       <i className="far fa-star"></i>
                     </li>
                     <li>
-                      {" "}
-                      <span>4.0</span>{" "}
+                      <span>4.0</span>
                     </li>
                   </ul>
                   <div className="client-name">
@@ -73,10 +69,7 @@ const TestimonialPage = () => {
             <div className="testimonail-wrapper">
               <div className="testimonial-item">
                 <div className="thumb">
-                  <img
-                    src={testiTwo}
-                    alt=""
-                  />
+                  <img src={testiTwo} alt="img" />
                 </div>
                 <div
                   className="background-img"
@@ -108,8 +101,8 @@ const TestimonialPage = () => {
                       <i className="fas fa-star"></i>
                     </li>
                     <li>
-                      {" "}
-                      <span>5.0</span>{" "}
+                      
+                      <span>5.0</span>
                     </li>
                   </ul>
                   <div className="client-name">
@@ -124,10 +117,7 @@ const TestimonialPage = () => {
             <div className="testimonail-wrapper">
               <div className="testimonial-item">
                 <div className="thumb">
-                  <img
-                    src={testiThree}
-                    alt=""
-                  />
+                  <img src={testiThree} alt="img" />
                 </div>
                 <div
                   className="background-img"

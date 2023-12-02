@@ -1631,6 +1631,7 @@ ul[class*="custom--tab"] li:last-child button {
   padding: 0 18px;
   -webkit-transition: all ease-in 0.4s;
   transition: all ease-in 0.4s;
+  margin-top: 52px;
 }
 
 @media (max-width: 991px) {
@@ -1906,7 +1907,7 @@ ul[class*="custom--tab"] li:last-child button {
 
 .header-top {
   background-color: #141414;
-  padding: 20px 0 60px;
+  padding: 14px 0 60px;
 }
 
 .top-contact-menu {

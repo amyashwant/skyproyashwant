@@ -1,5 +1,6 @@
 import React from "react";
 import aboutImg from "../../../assets/images/breadcumb/Artboard-2.webp";
+import { Link } from "react-router-dom";
 const BeadCumb = () => {
   return (
     <section
@@ -16,7 +17,7 @@ const BeadCumb = () => {
               <h4 className="breadcumb-title text-center text-white">ABOUT US</h4>
               <ul className="breadcumb-list d-flex justify-content-center align-items-center">
                 <li>
-                  <a href="index.html">HOME</a>
+                  <Link to="/">HOME</Link>
                 </li>
                 <li>
                   <span>/</span>

@@ -17,7 +17,7 @@ const Service = () => {
                 <div className="left">
                   <h5 className="title">ONE STOP SOLUTION</h5>
                   <p className="para">99% Internet Uptime</p>
-                  <span className="icon-right-arrow"></span>
+                  {/* <span className="icon-right-arrow"></span> */}
                 </div>
                 <div className="right-icon">
                   <span className="icon-wifi-router-1"></span>
@@ -34,7 +34,7 @@ const Service = () => {
                 <div className="left">
                   <h5 className="title">Weather Proof Signal</h5>
                   <p className="para">24/7 Customer Support</p>
-                  <span className="icon-right-arrow"></span>
+                  {/* <span className="icon-right-arrow"></span> */}
                 </div>
                 <div className="right-icon">
                   <span className="icon-mobile-phone"></span>
@@ -51,7 +51,7 @@ const Service = () => {
                 <div className="left">
                   <h5 className="title">Unlimited New Content</h5>
                   <p className="para">99% Home Internet</p>
-                  <span className="icon-right-arrow"></span>
+                  {/* <span className="icon-right-arrow"></span> */}
                 </div>
                 <div className="right-icon">
                   <span className="icon-home-insurance"></span>
@@ -68,7 +68,7 @@ const Service = () => {
                 <div className="left">
                   <h5 className="title">4K Ultra HD STB</h5>
                   <p className="para">99% Data Connectivity</p>
-                  <span className="icon-right-arrow"></span>
+                  {/* <span className="icon-right-arrow"></span> */}
                 </div>
                 <div className="right-icon">
                   <span className="icon-satellite-dish"></span>

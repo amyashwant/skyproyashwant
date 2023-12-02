@@ -1,10 +1,10 @@
 import React from "react";
-import serviceOne from "../../../assets/images/services/services-img-01.png"
-import serviceTwo from "../../../assets/images/services/services-img-02.jpg"
-import serviceThree from "../../../assets/images/services/services-img-03.jpg"
-import serviceFour from "../../../assets/images/services/services-img-04.jpg"
-import serviceFive from "../../../assets/images/services/services-img-05.jpg"
-import serviceSix from "../../../assets/images/services/services-img-06.jpg"
+import serviceOne from "../../../assets/images/services/services-img-01.png";
+import serviceTwo from "../../../assets/images/services/services-img-02.jpg";
+import serviceThree from "../../../assets/images/services/services-img-03.jpg";
+import serviceFour from "../../../assets/images/services/services-img-04.jpg";
+import serviceFive from "../../../assets/images/services/services-img-05.jpg";
+import serviceSix from "../../../assets/images/services/services-img-06.jpg";
 
 const ServicePages = () => {
   return (
@@ -25,11 +25,13 @@ const ServicePages = () => {
                 Offering devoted web association with different price to
                 purchase.
               </p>
-              <a href="services-details.html" className="btn--base-two style-two">
-                {" "}
-                <i className="fas fa-circle "></i>READ MORE{" "}
+              {/* <a
+                href="services-details.html"
+                className="btn--base-two style-two"
+              >
+                <i className="fas fa-circle "></i>READ MORE
                 <i className="fas fa-circle"></i>
-              </a>
+              </a> */}
             </div>
           </div>
           <div className="col-lg-4 col-md-6">
@@ -45,11 +47,13 @@ const ServicePages = () => {
                 Broadband Internet is giving one of the quickest broadband web
                 and organization arrangements all through.
               </p>
-              <a href="services-details.html" className="btn--base-two style-two">
-                {" "}
+              {/* <a
+                href="services-details.html"
+                className="btn--base-two style-two"
+              >
                 <i className="fas fa-circle "></i>READ MORE{" "}
                 <i className="fas fa-circle"></i>
-              </a>
+              </a> */}
             </div>
           </div>
           <div className="col-lg-4 col-md-6">
@@ -65,11 +69,14 @@ const ServicePages = () => {
                 Make it reasonable! Golden IT programs are quite often 33% to
                 one around 50% of the expense of practically identical.
               </p>
-              <a href="services-details.html" className="btn--base-two style-two">
+              {/* <a
+                href="services-details.html"
+                className="btn--base-two style-two"
+              >
                 {" "}
                 <i className="fas fa-circle "></i>READ MORE{" "}
                 <i className="fas fa-circle"></i>
-              </a>
+              </a> */}
             </div>
           </div>
           <div className="col-lg-4 col-md-6">
@@ -85,11 +92,14 @@ const ServicePages = () => {
                 The networking of computers in the home is made easier with a
                 broadband connection, by either using wireless or wired modems.
               </p>
-              <a href="services-details.html" className="btn--base-two style-two">
+              {/* <a
+                href="services-details.html"
+                className="btn--base-two style-two"
+              >
                 {" "}
                 <i className="fas fa-circle "></i>READ MORE{" "}
                 <i className="fas fa-circle"></i>
-              </a>
+              </a> */}
             </div>
           </div>
           <div className="col-lg-4 col-md-6">
@@ -105,11 +115,14 @@ const ServicePages = () => {
                 A broadband association permits you to play numerous famous PC
                 games that depend on a quick Internet association.
               </p>
-              <a href="services-details.html" className="btn--base-two style-two">
+              {/* <a
+                href="services-details.html"
+                className="btn--base-two style-two"
+              >
                 {" "}
                 <i className="fas fa-circle "></i>READ MORE{" "}
                 <i className="fas fa-circle"></i>
-              </a>
+              </a> */}
             </div>
           </div>
           <div className="col-lg-4 col-md-6">
@@ -125,11 +138,14 @@ const ServicePages = () => {
                 Broadband association, dissimilar to the old dial-up web
                 association, won't draw in your telephone line when being used.
               </p>
-              <a href="services-details.html" className="btn--base-two style-two">
+              {/* <a
+                href="services-details.html"
+                className="btn--base-two style-two"
+              >
                 {" "}
                 <i className="fas fa-circle "></i>READ MORE{" "}
                 <i className="fas fa-circle"></i>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

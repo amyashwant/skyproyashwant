@@ -1,6 +1,4 @@
 import React from "react";
-import TopHeader from "../components/packagesComponents/headerPackage/TopHeader";
-import BottomHeader from "../components/packagesComponents/headerPackage/BottomHeader";
 import BeadCumb from "../components/aboutPageComponents/beadCumb/BeadCumb";
 import AboutPages from "../components/aboutPageComponents/aboutPages/AboutPages";
 import OfferPage from "../components/aboutPageComponents/offferPage/OfferPage";

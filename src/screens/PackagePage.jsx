@@ -11,9 +11,9 @@ const PackagePage = () => {
   return (
     <div>
       <Header />
-      {/* <BeadCumb/> */}
+
       <PackageMainPage />
-      <PaymentSection/>
+      <PaymentSection />
       <FooterContact />
       <Footer />
     </div>

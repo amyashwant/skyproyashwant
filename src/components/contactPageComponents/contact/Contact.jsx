@@ -1,6 +1,12 @@
 import React from "react";
-
+import contactOne from "../../../assets/images/contact/contact-icon-01.png";
+import contactTwo from "../../../assets/images/contact/contact-icon-02.png";
+import contactThree from "../../../assets/images/contact/contact-icon-03.png";
 const Contact = () => {
+  const handleClick = () => {
+    alert("Thanks");
+  };
+
   return (
     <section className="contact py-100">
       <div className="container">
@@ -10,10 +16,7 @@ const Contact = () => {
               <div className="col-sm-6">
                 <div className="contact-address d-flex flex-row text-sm-start text-start">
                   <div className="icon">
-                    <img
-                      src="assets/images/contact/contact-icon-01.png"
-                      alt=""
-                    />
+                    <img src={contactOne} alt="img" />
                   </div>
                   <div className="content">
                     <h6 className="title">OFFICIAL LOCATION</h6>
@@ -27,10 +30,7 @@ const Contact = () => {
               <div className="col-sm-6">
                 <div className="contact-address d-flex flex-row text-sm-start text-start">
                   <div className="icon">
-                    <img
-                      src="assets/images/contact/contact-icon-02.png"
-                      alt=""
-                    />
+                    <img src={contactTwo} alt="img" />
                   </div>
                   <div className="content">
                     <h6 className="title">SEND US A MESSAGE</h6>
@@ -46,10 +46,7 @@ const Contact = () => {
               <div className="col-sm-6">
                 <div className="contact-address d-flex flex-row text-sm-start text-start">
                   <div className="icon">
-                    <img
-                      src="assets/images/contact/contact-icon-03.png"
-                      alt=""
-                    />
+                    <img src={contactThree} alt="img" />
                   </div>
                   <div className="content">
                     <h6 className="title">OUR OFFICE TIME</h6>
@@ -61,10 +58,7 @@ const Contact = () => {
               <div className="col-sm-6">
                 <div className="contact-address d-flex flex-row text-sm-start text-start">
                   <div className="icon">
-                    <img
-                      src="assets/images/contact/contact-icon-04.png"
-                      alt=""
-                    />
+                    <img src={contactThree} alt="img" />
                   </div>
                   <div className="content">
                     <h6 className="title">GIVE US CALL</h6>
@@ -85,49 +79,62 @@ const Contact = () => {
             </p>
           </div>
           <div className="col-lg-6">
-            <form action="#" autoComplete="off">
+            <form onSubmit={handleClick} autoComplete="off">
               <div className="row">
                 <div className="col-md-6">
+                  <div style={{ color: "black", fontWeight: "bolder" }}>
+                    Enter Your Name
+                  </div>
                   <div className="contact-form-field mb-4">
                     <input
                       type="text"
                       id="yourname"
                       className="form-control form--control style-two"
                       placeholder="Your Name"
-                      required=""
+                      required={true}
                     />
                   </div>
                 </div>
+
                 <div className="col-md-6">
+                  <div style={{ color: "black", fontWeight: "bolder" }}>
+                    Enter Your Email
+                  </div>
                   <div className="contact-form-field mb-4">
                     <input
                       type="email"
                       id="yourEmail"
                       className="form-control form--control style-two"
                       placeholder="Email"
-                      required=""
+                      required={true}
                     />
                   </div>
                 </div>
                 <div className="col-md-6">
+                  <div style={{ color: "black", fontWeight: "bolder" }}>
+                    Enter Your Phone
+                  </div>
                   <div className="contact-form-field mb-4">
                     <input
-                      type="text"
+                      type="number"
                       id="phone"
                       className="form-control form--control style-two"
                       placeholder="Phone"
-                      required=""
+                      required={true}
                     />
                   </div>
                 </div>
                 <div className="col-md-6">
+                  <div style={{ color: "black", fontWeight: "bolder" }}>
+                    Enter Your Subject
+                  </div>
                   <div className="contact-form-field mb-4">
                     <input
                       type="text"
                       id="yoursubject"
                       className="form-control form--control style-two"
                       placeholder="Subject"
-                      required=""
+                      required={true}
                     />
                   </div>
                 </div>

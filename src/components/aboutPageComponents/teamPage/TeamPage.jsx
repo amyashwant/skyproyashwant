@@ -26,10 +26,10 @@ const TeamPage = () => {
           <div className="col-lg-4 col-md-6">
             <div className="team-item">
               <div className="thumb">
-                <img src={teamTwo} alt="" />
+                <img src={teamTwo} alt="img" />
                 <div className="share-icon">
                   <a href="javascript: void(0)" className="icon-share"></a>
-                  <div className="popup-share-icons">
+                  <div className="popup-share-icons"> 
                     <ul className="popup-icons d-flex">
                       <li>
                         <a href="#">
@@ -66,7 +66,7 @@ const TeamPage = () => {
           <div className="col-lg-4 col-md-6">
             <div className="team-item">
               <div className="thumb">
-                <img src={teamThree} alt="" />
+                <img src={teamThree} alt="img" />
                 <div className="share-icon">
                   <a href="javascript: void(0)" className="icon-share"></a>
                   <div className="popup-share-icons">
@@ -106,7 +106,7 @@ const TeamPage = () => {
           <div className="col-lg-4 col-md-6">
             <div className="team-item">
               <div className="thumb">
-                <img src={teamFour} alt="" />
+                <img src={teamFour} alt="img" />
                 <div className="share-icon">
                   <a href="javascript: void(0)" className="icon-share"></a>
                   <div className="popup-share-icons">

@@ -6,6 +6,10 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   const [showButton, setShowButton] = useState(false);
 
+  const handleClick = () => {
+    alert("Thanks ");
+  };
+
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 300) {
@@ -49,24 +53,24 @@ const Footer = () => {
                 </p>
                 <ul className="social-icons d-flex align-items-center flex-wrap pt-4">
                   <li>
-                    <a href="#">
+                    <Link to="/">
                       <i className="fab fa-facebook-f"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" className="active">
+                    <Link to="/" className="active">
                       <i className="fab fa-twitter"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">
+                    <Link to="/">
                       <i className="fab fa-linkedin-in"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">
+                    <Link to="/">
                       <i className="fab fa-pinterest-p"></i>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -129,7 +133,7 @@ const Footer = () => {
               <div className="footer-item">
                 <h4 className="common-footer">NEWS LETTER</h4>
                 <div className="footer-buttons pt-3">
-                  <form action="#" autoComplete="off">
+                  <form onSubmit={handleClick} autoComplete="off">
                     <input
                       type="email"
                       className="form-control form--control text-center"

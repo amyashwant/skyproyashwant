@@ -72,7 +72,7 @@ const PaymentModal = ({ handleClose, show, children }) => {
           </div>
         </div>
       </div>
-      <SecondModal show={showSecondModal} />
+      {/* <SecondModal show={showSecondModal} /> */}
     </>
   );
 };

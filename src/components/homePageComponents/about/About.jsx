@@ -32,8 +32,6 @@ const About = () => {
                   <img className="w-100" src={aboutFour} alt="img" />
                 </span>
               </div>
-
-              <strong></strong>
             </div>
           </div>
           <div className="col-lg-6">

@@ -1,5 +1,6 @@
 import React from "react";
 import offerOne from "../../../assets/images/home-01/about/offer-bg.png"
+import { Link } from "react-router-dom";
 const OfferPage = () => {
   return (
     <section
@@ -34,9 +35,9 @@ const OfferPage = () => {
               <div className="col-lg-12">
                 <div className="offer-button-price">
                   <div className="offer-button flex-shrink-0">
-                    <a href="about.html" className="btn--base">
+                    <Link to="/contact" className="btn--base">
                       DISCOVER MORE
-                    </a>
+                    </Link>
                   </div>
                   <div className="offer-price flex-grow-1">
                     <h2 className="price">

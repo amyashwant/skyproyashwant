@@ -108,9 +108,6 @@ const Testimonials = () => {
                   The term broadband alludes to a fast and high-data
                   transmission correspondence foundation.
                 </p>
-                {/* <a href="index.html" className="btn--base-two mt-md-3 mt-2">
-                  READ MORE <i className="fas fa-circle"></i>
-                </a> */}
               </div>
             </div>
             <div className="right-item d-flex flex-wrap align-items-sm-start align-items-center">
@@ -123,9 +120,6 @@ const Testimonials = () => {
                   It commonly relates to high-speed Internet services, which
                   have become very important to both consumers.
                 </p>
-                {/* <a href="index.html" className="btn--base-two mt-md-3 mt-2">
-                  READ MORE <i className="fas fa-circle"></i>
-                </a> */}
               </div>
             </div>
             <div className="right-item d-flex flex-wrap align-items-sm-start align-items-center">
