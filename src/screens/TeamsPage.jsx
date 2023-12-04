@@ -8,11 +8,13 @@ import CallToAction from "../components/packagesComponents/callToAction/CallToAc
 import FooterContact from "../common/footerContact/FooterContact";
 import Footer from "../common/footer/Footer";
 import Header from "../common/header/Header";
+import LoaderComponent from "../common/loaderComponent.jsx/LoaderComponent";
 
 const TeamsPage = () => {
   window.scrollTo(0, 0);
   return (
     <>
+      {/* <LoaderComponent /> */}
       <Header />
       {/* <TopHeader /> */}
       {/* <BottomHeader /> */}

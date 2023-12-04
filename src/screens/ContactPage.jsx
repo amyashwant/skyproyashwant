@@ -8,11 +8,13 @@ import Footer from "../common/footer/Footer";
 import Header from "../common/header/Header";
 import BeadCumbCommon from "../common/beadcumbCommon/BeadCumbCommon";
 import contactImg from "../assets/images/breadcumb/_1530667899_390_yEZPsIaoTI3ZNDdB-croppedUundb-jpg-details.jpg";
+import LoaderComponent from "../common/loaderComponent.jsx/LoaderComponent";
 
 const ContactPage = () => {
   window.scrollTo(0, 0);
   return (
     <>
+    {/* <LoaderComponent/> */}
       <Header />
       {/* <TopHeader /> */}
       {/* <BottomHeader /> */}

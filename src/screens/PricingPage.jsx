@@ -8,11 +8,13 @@ import FaqPage from "../components/pricingPageComponents/faqPage/FaqPage";
 import FooterContact from "../common/footerContact/FooterContact";
 import Footer from "../common/footer/Footer";
 import Header from "../common/header/Header";
+import LoaderComponent from "../common/loaderComponent.jsx/LoaderComponent";
 
 const PricingPage = () => {
   window.scrollTo(0, 0);
   return (
     <div>
+      {/* <LoaderComponent/> */}
       <Header/>
       {/* <TopHeader/> */
       }

@@ -9,16 +9,22 @@ import FooterContact from "../common/footerContact/FooterContact";
 import Footer from "../common/footer/Footer";
 import Header from "../common/header/Header";
 import BeadCumbCommon from "../common/beadcumbCommon/BeadCumbCommon";
-import bgImg from "../assets/images/authentication/breadcumb.png"
+import bgImg from "../assets/images/authentication/breadcumb.png";
+import LoaderComponent from "../common/loaderComponent.jsx/LoaderComponent";
 const ServicePage = () => {
   window.scrollTo(0, 0);
   return (
     <>
+      {/* <LoaderComponent /> */}
       <Header />
       {/* <TopHeader /> */}
       {/* <BottomHeader /> */}
-      <BeadCumbCommon titleOne="OUR SERVICES" titleTwo="SERVICES" bgImg={bgImg} />
-      <ServicePages /> 
+      <BeadCumbCommon
+        titleOne="OUR SERVICES"
+        titleTwo="SERVICES"
+        bgImg={bgImg}
+      />
+      <ServicePages />
       <FaqPage />
       <CtaPage />
       <FooterContact />

@@ -10,11 +10,13 @@ import FooterContact from "../common/footerContact/FooterContact";
 import Footer from "../common/footer/Footer";
 import TopHeader from "../components/packagesComponents/headerPackage/TopHeader";
 import Header from "../common/header/Header";
+import LoaderComponent from "../common/loaderComponent.jsx/LoaderComponent";
 
 const Packages = () => {
   window.scrollTo(0, 0);
   return (
     <div>
+      {/* <LoaderComponent/> */}
       <Header/>
       {/* <TopHeader/> */}
       {/* <BottomHeader /> */}

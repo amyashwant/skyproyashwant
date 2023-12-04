@@ -11,10 +11,12 @@ import Footer from "../common/footer/Footer";
 import Header from "../common/header/Header";
 import BeadCumbCommon from "../common/beadcumbCommon/BeadCumbCommon";
 import bgImg from "../assets/images/breadcumb/Artboard-2.webp";
+import LoaderComponent from "../common/loaderComponent.jsx/LoaderComponent";
 const AboutPage = () => {
   window.scrollTo(0, 0);
   return (
     <>
+      {/* <LoaderComponent /> */}
       <Header />
       {/* <TopHeader /> */}
       {/* <BottomHeader /> */}
