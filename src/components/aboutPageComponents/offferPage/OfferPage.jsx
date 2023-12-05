@@ -1,5 +1,5 @@
 import React from "react";
-import offerOne from "../../../assets/images/home-01/about/offer-bg.png"
+import offerOne from "../../../assets/images/home-01/about/offer-bg.png";
 import { Link } from "react-router-dom";
 const OfferPage = () => {
   return (
